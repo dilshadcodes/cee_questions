@@ -10,7 +10,13 @@
 
 <div class="wrap">
   <h1>CEE Tutorial</h1>
-  <p class="subtitle">Select a chapter to view its questions.</p>
+  <p class="subtitle">Select a chapter to view its content.</p>
+
+  <div id="mode-switch" class="mode-switch" role="tablist" aria-label="Content mode">
+    <button type="button" class="mode-btn" data-mode="lectures" role="tab">Lectures</button>
+    <button type="button" class="mode-btn" data-mode="notes" role="tab">Notes</button>
+    <button type="button" class="mode-btn" data-mode="questions" role="tab">Questions</button>
+  </div>
 
   <div id="chapter-list" class="chapter-list">
     <p class="loading">Loading chapters…</p>
@@ -18,30 +24,83 @@
 </div>
 
 <script>
+  const MODE_STORAGE_KEY = 'ceeMode';
+  const DEFAULT_MODE = 'questions';
+  const MODE_LABELS = { lectures: 'lecture', notes: 'note', questions: 'question' };
+
+  const modeButtons = document.querySelectorAll('.mode-btn');
+  let currentMode = localStorage.getItem(MODE_STORAGE_KEY) || DEFAULT_MODE;
+  if (!MODE_LABELS[currentMode]) currentMode = DEFAULT_MODE;
+
+  let chaptersData = null;
+
+  function setActiveButton() {
+    modeButtons.forEach(btn => {
+      const isActive = btn.dataset.mode === currentMode;
+      btn.classList.toggle('active', isActive);
+      btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+    });
+  }
+
+  function getModeEntry(ch, mode) {
+    // New schema: ch[mode] = { file, count }.
+    if (ch[mode] && ch[mode].file) return ch[mode];
+    // Legacy schema fallback: a flat { file, count } was always Questions-mode data.
+    if (mode === 'questions' && ch.file) return { file: ch.file, count: ch.count };
+    return null;
+  }
+
+  function renderChapters() {
+    const container = document.getElementById('chapter-list');
+    if (!chaptersData) return;
+    container.innerHTML = '';
+
+    if (!chaptersData.length) {
+      container.innerHTML = '<p class="loading">No chapters added yet.</p>';
+      return;
+    }
+
+    chaptersData.forEach(ch => {
+      const entry = getModeEntry(ch, currentMode);
+      const available = !!entry;
+
+      const card = document.createElement(available ? 'a' : 'div');
+      card.className = 'chapter-card' + (available ? '' : ' disabled');
+      if (available) {
+        card.href = `chapter.html?id=${encodeURIComponent(ch.id)}&mode=${encodeURIComponent(currentMode)}`;
+      }
+
+      const countLabel = available && entry.count
+        ? `${entry.count} ${MODE_LABELS[currentMode]}${entry.count === 1 ? '' : 's'}`
+        : (available ? '' : 'Coming soon');
+
+      card.innerHTML = `
+        <span class="chapter-name">${ch.name}</span>
+        <span class="chapter-count">${countLabel}</span>
+      `;
+      container.appendChild(card);
+    });
+  }
+
+  modeButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentMode = btn.dataset.mode;
+      localStorage.setItem(MODE_STORAGE_KEY, currentMode);
+      setActiveButton();
+      renderChapters();
+    });
+  });
+
+  setActiveButton();
+
   fetch('chapters.json')
     .then(res => {
       if (!res.ok) throw new Error('Could not load chapters.json');
       return res.json();
     })
     .then(chapters => {
-      const container = document.getElementById('chapter-list');
-      container.innerHTML = '';
-
-      if (!chapters.length) {
-        container.innerHTML = '<p class="loading">No chapters added yet.</p>';
-        return;
-      }
-
-      chapters.forEach(ch => {
-        const card = document.createElement('a');
-        card.className = 'chapter-card';
-        card.href = `chapter.html?id=${encodeURIComponent(ch.id)}`;
-        card.innerHTML = `
-          <span class="chapter-name">${ch.name}</span>
-          <span class="chapter-count">${ch.count ? ch.count + ' questions' : ''}</span>
-        `;
-        container.appendChild(card);
-      });
+      chaptersData = chapters;
+      renderChapters();
     })
     .catch(err => {
       document.getElementById('chapter-list').innerHTML =

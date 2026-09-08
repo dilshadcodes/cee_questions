@@ -18,7 +18,7 @@ MathJax = {
 <body>
 
 <div class="wrap">
-  <a href="index.html" class="back-link">&larr; All chapters</a>
+  <a href="index.html" class="back-link" id="back-link">&larr; All chapters</a>
   <h1 id="chapter-title">Loading…</h1>
   <div id="questions" class="questions">
     <p class="loading">Loading questions…</p>
@@ -28,6 +28,18 @@ MathJax = {
 <script>
   const params = new URLSearchParams(window.location.search);
   const chapterId = params.get('id');
+  const DEFAULT_MODE = 'questions';
+  const MODE_TITLES = { lectures: 'Lectures', notes: 'Notes', questions: 'Questions' };
+  let mode = params.get('mode') || DEFAULT_MODE;
+  if (!MODE_TITLES[mode]) mode = DEFAULT_MODE;
+
+  function getModeEntry(ch, mode) {
+    // New schema: ch[mode] = { file, count }.
+    if (ch[mode] && ch[mode].file) return ch[mode];
+    // Legacy schema fallback: a flat { file, count } was always Questions-mode data.
+    if (mode === 'questions' && ch.file) return { file: ch.file, count: ch.count };
+    return null;
+  }
 
   if (!chapterId) {
     document.getElementById('chapter-title').textContent = 'No chapter specified';
@@ -40,16 +52,26 @@ MathJax = {
         const chapter = chapters.find(c => c.id === chapterId);
         if (!chapter) throw new Error(`Chapter "${chapterId}" not found`);
 
-        document.getElementById('chapter-title').textContent = chapter.name;
-        document.title = chapter.name + ' — MCQ Bank';
+        document.getElementById('chapter-title').textContent =
+          `${chapter.name} — ${MODE_TITLES[mode]}`;
+        document.title = `${chapter.name} — ${MODE_TITLES[mode]}`;
 
-        return fetch(chapter.file);
+        const entry = getModeEntry(chapter, mode);
+        if (!entry) {
+          document.getElementById('questions').innerHTML =
+            `<p class="loading">${MODE_TITLES[mode]} for this chapter are coming soon.</p>`;
+          return null;
+        }
+
+        return fetch(entry.file);
       })
       .then(res => {
-        if (!res.ok) throw new Error('Could not load question file');
+        if (res === null) return null;
+        if (!res.ok) throw new Error(`Could not load ${MODE_TITLES[mode].toLowerCase()} file`);
         return res.json();
       })
       .then(data => {
+        if (data === null) return;
         const container = document.getElementById('questions');
         container.innerHTML = '';
 

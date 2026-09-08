@@ -33,6 +33,39 @@ h1 {
   color: #b00020;
 }
 
+/* ---- Mode switch (index.html) ---- */
+
+.mode-switch {
+  display: inline-flex;
+  background: #eef1f6;
+  border-radius: 8px;
+  padding: 4px;
+  margin-bottom: 24px;
+  gap: 4px;
+}
+
+.mode-btn {
+  border: none;
+  background: transparent;
+  color: #445;
+  font-family: inherit;
+  font-size: 0.95em;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.mode-btn:hover {
+  color: #1a3d6d;
+}
+
+.mode-btn.active {
+  background: #1a3d6d;
+  color: #fff;
+}
+
 /* ---- Chapter list (index.html) ---- */
 
 .chapter-list {
@@ -69,6 +102,21 @@ h1 {
 .chapter-count {
   color: #888;
   font-size: 0.9em;
+}
+
+.chapter-card.disabled {
+  cursor: default;
+  opacity: 0.55;
+  border-left-color: #aaa;
+}
+
+.chapter-card.disabled:hover {
+  transform: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.chapter-card.disabled .chapter-count {
+  font-style: italic;
 }
 
 /* ---- Question viewer (chapter.html) ---- */

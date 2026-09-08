@@ -2,7 +2,8 @@
   {
     "id": "interference_optics",
     "name": "Interference — Optics",
-    "questions": { "file": "questions/interference_optics.json", "count": 76 }
+    "questions": { "file": "questions/interference_optics.json", "count": 76 },
+    "lectures": { "file": "lectures/interference_optics.json", "count": 1 }
   },
 
   {

@@ -17,41 +17,21 @@ MathJax = {
 </head>
 <body>
 
-<div class="wrap chapter-layout">
-
-  <aside class="sidebar" id="sidebar">
-    <div id="mode-switch" class="mode-switch" role="tablist" aria-label="Content mode">
-      <button type="button" class="mode-btn" data-mode="lectures" role="tab">Lectures</button>
-      <button type="button" class="mode-btn" data-mode="notes" role="tab">Notes</button>
-      <button type="button" class="mode-btn" data-mode="questions" role="tab">Questions</button>
-    </div>
-    <div id="chapter-list" class="chapter-list sidebar-list">
-      <p class="loading">Loading chapters…</p>
-    </div>
-  </aside>
-
-  <main class="main-content">
-    <a href="index.html" class="back-link mobile-only">&larr; All chapters</a>
-    <h1 id="chapter-title">Loading…</h1>
-    <div id="questions" class="questions">
-      <p class="loading">Loading questions…</p>
-    </div>
-  </main>
-
+<div class="wrap">
+  <a href="index.html" class="back-link" id="back-link">&larr; All chapters</a>
+  <h1 id="chapter-title">Loading…</h1>
+  <div id="questions" class="questions">
+    <p class="loading">Loading questions…</p>
+  </div>
 </div>
 
 <script>
-  const MODE_STORAGE_KEY = 'ceeMode';
-  const DEFAULT_MODE = 'questions';
-  const MODE_TITLES = { lectures: 'Lectures', notes: 'Notes', questions: 'Questions' };
-  const MODE_LABELS = { lectures: 'lecture', notes: 'note', questions: 'question' };
-
   const params = new URLSearchParams(window.location.search);
   const chapterId = params.get('id');
-
-  let mode = params.get('mode') || localStorage.getItem(MODE_STORAGE_KEY) || DEFAULT_MODE;
+  const DEFAULT_MODE = 'questions';
+  const MODE_TITLES = { lectures: 'Lectures', notes: 'Notes', questions: 'Questions' };
+  let mode = params.get('mode') || DEFAULT_MODE;
   if (!MODE_TITLES[mode]) mode = DEFAULT_MODE;
-  localStorage.setItem(MODE_STORAGE_KEY, mode);
 
   function getModeEntry(ch, mode) {
     // New schema: ch[mode] = { file, count }.
@@ -61,124 +41,67 @@ MathJax = {
     return null;
   }
 
-  function setActiveModeButton() {
-    document.querySelectorAll('.mode-btn').forEach(btn => {
-      const isActive = btn.dataset.mode === mode;
-      btn.classList.toggle('active', isActive);
-      btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
-    });
-  }
-  setActiveModeButton();
+  if (!chapterId) {
+    document.getElementById('chapter-title').textContent = 'No chapter specified';
+    document.getElementById('questions').innerHTML =
+      '<p class="error">Go back and pick a chapter from the list.</p>';
+  } else {
+    fetch('chapters.json')
+      .then(res => res.json())
+      .then(chapters => {
+        const chapter = chapters.find(c => c.id === chapterId);
+        if (!chapter) throw new Error(`Chapter "${chapterId}" not found`);
 
-  document.querySelectorAll('.mode-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      if (btn.dataset.mode === mode) return;
-      localStorage.setItem(MODE_STORAGE_KEY, btn.dataset.mode);
-      const url = new URL(window.location.href);
-      url.searchParams.set('mode', btn.dataset.mode);
-      if (chapterId) url.searchParams.set('id', chapterId);
-      window.location.href = url.toString();
-    });
-  });
+        document.getElementById('chapter-title').textContent =
+          `${chapter.name} — ${MODE_TITLES[mode]}`;
+        document.title = `${chapter.name} — ${MODE_TITLES[mode]}`;
 
-  function renderSidebarChapters(chapters) {
-    const container = document.getElementById('chapter-list');
-    container.innerHTML = '';
+        const entry = getModeEntry(chapter, mode);
+        if (!entry) {
+          document.getElementById('questions').innerHTML =
+            `<p class="loading">${MODE_TITLES[mode]} for this chapter are coming soon.</p>`;
+          return null;
+        }
 
-    if (!chapters.length) {
-      container.innerHTML = '<p class="loading">No chapters added yet.</p>';
-      return;
-    }
+        return fetch(entry.file);
+      })
+      .then(res => {
+        if (res === null) return null;
+        if (!res.ok) throw new Error(`Could not load ${MODE_TITLES[mode].toLowerCase()} file`);
+        return res.json();
+      })
+      .then(data => {
+        if (data === null) return;
+        const container = document.getElementById('questions');
+        container.innerHTML = '';
 
-    chapters.forEach(ch => {
-      const entry = getModeEntry(ch, mode);
-      const available = !!entry;
-      const isActive = ch.id === chapterId;
+        data.questions.forEach(q => {
+          const div = document.createElement('div');
+          div.className = 'question';
 
-      const card = document.createElement(available ? 'a' : 'div');
-      card.className = 'chapter-card'
-        + (available ? '' : ' disabled')
-        + (isActive ? ' active' : '');
-      if (available) {
-        card.href = `chapter.html?id=${encodeURIComponent(ch.id)}&mode=${encodeURIComponent(mode)}`;
-      }
+          const optionsHtml = q.options.map(opt => `
+            <li><span class="label">${opt.label}.</span>${opt.text}</li>
+          `).join('');
 
-      const countLabel = available && entry.count
-        ? `${entry.count} ${MODE_LABELS[mode]}${entry.count === 1 ? '' : 's'}`
-        : (available ? '' : 'Coming soon');
+          div.innerHTML = `
+            <span class="qnum">${q.number}.</span>
+            <span class="qtext">${q.question}</span>
+            <ul class="options">${optionsHtml}</ul>
+          `;
+          container.appendChild(div);
+        });
 
-      card.innerHTML = `
-        <span class="chapter-name">${ch.name}</span>
-        <span class="chapter-count">${countLabel}</span>
-      `;
-      container.appendChild(card);
-    });
-  }
-
-  fetch('chapters.json')
-    .then(res => res.json())
-    .then(chapters => {
-      renderSidebarChapters(chapters);
-
-      if (!chapterId) {
-        document.getElementById('chapter-title').textContent = 'No chapter specified';
+        // Ask MathJax to typeset the newly inserted content
+        if (window.MathJax && MathJax.typesetPromise) {
+          MathJax.typesetPromise();
+        }
+      })
+      .catch(err => {
+        document.getElementById('chapter-title').textContent = 'Error';
         document.getElementById('questions').innerHTML =
-          '<p class="error">Pick a chapter from the list.</p>';
-        return null;
-      }
-
-      const chapter = chapters.find(c => c.id === chapterId);
-      if (!chapter) throw new Error(`Chapter "${chapterId}" not found`);
-
-      document.getElementById('chapter-title').textContent =
-        `${chapter.name} — ${MODE_TITLES[mode]}`;
-      document.title = `${chapter.name} — ${MODE_TITLES[mode]}`;
-
-      const entry = getModeEntry(chapter, mode);
-      if (!entry) {
-        document.getElementById('questions').innerHTML =
-          `<p class="loading">${MODE_TITLES[mode]} for this chapter are coming soon.</p>`;
-        return null;
-      }
-
-      return fetch(entry.file);
-    })
-    .then(res => {
-      if (!res) return null;
-      if (!res.ok) throw new Error(`Could not load ${MODE_TITLES[mode].toLowerCase()} file`);
-      return res.json();
-    })
-    .then(data => {
-      if (!data) return;
-      const container = document.getElementById('questions');
-      container.innerHTML = '';
-
-      data.questions.forEach(q => {
-        const div = document.createElement('div');
-        div.className = 'question';
-
-        const optionsHtml = q.options.map(opt => `
-          <li><span class="label">${opt.label}.</span>${opt.text}</li>
-        `).join('');
-
-        div.innerHTML = `
-          <span class="qnum">${q.number}.</span>
-          <span class="qtext">${q.question}</span>
-          <ul class="options">${optionsHtml}</ul>
-        `;
-        container.appendChild(div);
+          `<p class="error">${err.message}</p>`;
       });
-
-      // Ask MathJax to typeset the newly inserted content
-      if (window.MathJax && MathJax.typesetPromise) {
-        MathJax.typesetPromise();
-      }
-    })
-    .catch(err => {
-      document.getElementById('chapter-title').textContent = 'Error';
-      document.getElementById('questions').innerHTML =
-        `<p class="error">${err.message}</p>`;
-    });
+  }
 </script>
 
 </body>

@@ -93,16 +93,6 @@
     },
     {
       "number": 10,
-      "question": "When a mirror is rotated through an angle \\(30^\\circ\\) keeping incident ray constant then reflected ray is rotated through an angle [KU 08]",
-      "options": [
-        { "label": "a", "text": "25\\(^\\circ\\)" },
-        { "label": "b", "text": "60\\(^\\circ\\)" },
-        { "label": "c", "text": "45\\(^\\circ\\)" },
-        { "label": "d", "text": "90\\(^\\circ\\)" }
-      ]
-    },
-    {
-      "number": 11,
       "question": "Two mirrors A and B are inclined at angle \\(\\theta\\). A ray of light incident in mirrors B is deviated to \\(62^\\circ\\) and the angle of emergence is \\(20^\\circ\\), then find the angle of inclination. [IOM 2066]",
       "options": [
         { "label": "a", "text": "20\\(^\\circ\\)" },
@@ -112,7 +102,7 @@
       ]
     },
     {
-      "number": 12,
+      "number": 11,
       "question": "If an object is placed symmetrically between two plane mirrors inclined at an angle of \\(72^\\circ\\). The number of images will be [IE-04]",
       "options": [
         { "label": "a", "text": "4" },
@@ -122,7 +112,7 @@
       ]
     },
     {
-      "number": 13,
+      "number": 12,
       "question": "A concave mirror has radius of curvature 20 cm. An object is placed 10 cm from the pole of the mirror. The image will be at [BPKIHS 01]",
       "options": [
         { "label": "a", "text": "10 cm from the pole on same side" },
@@ -132,7 +122,7 @@
       ]
     },
     {
-      "number": 14,
+      "number": 13,
       "question": "A person approaches a plane mirror with velocity v then the relative velocity of approach of person and his image is [BPKIHS-96]",
       "options": [
         { "label": "a", "text": "zero" },
@@ -142,7 +132,7 @@
       ]
     },
     {
-      "number": 15,
+      "number": 14,
       "question": "An object is moving towards a plane mirror with a velocity v making a certain angle \\(\\theta\\) with normal of a plane mirror. The velocity of image w.r.t object is",
       "options": [
         { "label": "a", "text": "v\\(\\cos\\theta\\)" },
@@ -152,7 +142,7 @@
       ]
     },
     {
-      "number": 16,
+      "number": 15,
       "question": "A cubical room is formed with 6 plane mirrors. An object stared to move along the diagonal of floor. The velocity of image in two adjacent walls is \\(20\\sqrt{2}\\) cm/s, then the velocity of image along the diagonal of the roof is:",
       "options": [
         { "label": "a", "text": "20cm/s" },
@@ -162,7 +152,7 @@
       ]
     },
     {
-      "number": 17,
+      "number": 16,
       "question": "Two plane mirrors are inclined at a certain angle undergoes a deviation of \\(300^\\circ\\). The number of images observe is",
       "options": [
         { "label": "a", "text": "8" },
@@ -172,17 +162,7 @@
       ]
     },
     {
-      "number": 18,
-      "question": "Two plane mirrors inclined at an angle \\(\\theta\\) form 9 images of an object placed symmetrically between them. Then the angle \\(\\theta\\) is:",
-      "options": [
-        { "label": "a", "text": "36\\(^\\circ\\)" },
-        { "label": "b", "text": "45\\(^\\circ\\)" },
-        { "label": "c", "text": "60\\(^\\circ\\)" },
-        { "label": "d", "text": "75\\(^\\circ\\)" }
-      ]
-    },
-    {
-      "number": 19,
+      "number": 17,
       "question": "A ray of light is incident on a plane mirror at an angle of incidence \\(30^\\circ\\). The ray after reflection is deviated through",
       "options": [
         { "label": "a", "text": "130\\(^\\circ\\)" },
@@ -192,7 +172,7 @@
       ]
     },
     {
-      "number": 20,
+      "number": 18,
       "question": "A person is approaching a plane mirror with speed 10 cm/s. If the initial distance between person and his image is 2m, then the distance between person and his image after 2.5 sec will be",
       "options": [
         { "label": "a", "text": "0.75 m" },
@@ -202,7 +182,7 @@
       ]
     },
     {
-      "number": 21,
+      "number": 19,
       "question": "It is desired to photograph the image of an object placed at a distance 3m from a plane mirror. The camera which is at a distance of 4.5m from the mirror should be focused at a distance of:",
       "options": [
         { "label": "a", "text": "3m" },
@@ -212,7 +192,7 @@
       ]
     },
     {
-      "number": 22,
+      "number": 20,
       "question": "A ray is reflected in turn by three plane mirrors mutually at right angles to each other. The angle between the incident and reflected rays is:",
       "options": [
         { "label": "a", "text": "0" },
@@ -222,7 +202,7 @@
       ]
     },
     {
-      "number": 23,
+      "number": 21,
       "question": "Two inclined plane mirrors are inclined at an angle \\(60^\\circ\\) with each other. A ray of light travelling horizontally is reflected first from one mirror and then from the other mirror. Then the resultant deviation is",
       "options": [
         { "label": "a", "text": "60\\(^\\circ\\)" },
@@ -232,7 +212,7 @@
       ]
     },
     {
-      "number": 24,
+      "number": 22,
       "question": "A ray of light incident to the first mirror and parallel to the second mirror is reflected from the second mirror parallel to the first mirror. The angle between two mirrors is",
       "options": [
         { "label": "a", "text": "30\\(^\\circ\\)" },
@@ -242,7 +222,7 @@
       ]
     },
     {
-      "number": 25,
+      "number": 23,
       "question": "A point object is placed on principal axis of a concave mirror of focal length 20cm at distance 30cm from pole. The image is formed at distance",
       "options": [
         { "label": "a", "text": "60 cm behind mirror" },
@@ -252,7 +232,7 @@
       ]
     },
     {
-      "number": 26,
+      "number": 24,
       "question": "How far should an object be held from a concave mirror of focal length 40 cm so as to obtain a real image twice the size of the object?",
       "options": [
         { "label": "a", "text": "10cm" },
@@ -262,7 +242,7 @@
       ]
     },
     {
-      "number": 27,
+      "number": 25,
       "question": "A bright spot situated at 60cm in front of a convex mirror forms a virtual image 20cm behind the mirror. The focal length of the mirror is:",
       "options": [
         { "label": "a", "text": "30cm" },
@@ -272,17 +252,7 @@
       ]
     },
     {
-      "number": 28,
-      "question": "A shaving mirror of focal length f produces an image x times the size of the object. If the image is real, then the distance of the object from the mirror is:",
-      "options": [
-        { "label": "a", "text": "\\((x + 1) f\\)" },
-        { "label": "b", "text": "\\((x + 1) f/x\\)" },
-        { "label": "c", "text": "\\((x - 1) f/x\\)" },
-        { "label": "d", "text": "\\((x - 1) f\\)" }
-      ]
-    },
-    {
-      "number": 29,
+      "number": 26,
       "question": "What is the magnification when the object is placed at 2f from the pole of a convex mirror?",
       "options": [
         { "label": "a", "text": "- 1/3" },
@@ -292,7 +262,7 @@
       ]
     },
     {
-      "number": 30,
+      "number": 27,
       "question": "A spherical mirror produces an image of magnification 3. Then the distance of the object from the mirror may be, if the focal length of spherical mirror is 24cm",
       "options": [
         { "label": "a", "text": "32cm only" },
@@ -302,7 +272,7 @@
       ]
     },
     {
-      "number": 31,
+      "number": 28,
       "question": "A convex mirror of focal length 20cm produces an image \\(\\frac{1}{3}\\) times the size of the object. Then the distance in between the object and its image is",
       "options": [
         { "label": "a", "text": "40cm" },
@@ -312,7 +282,7 @@
       ]
     },
     {
-      "number": 32,
+      "number": 29,
       "question": "A spherical mirror produces an image 3 times of the size of object. If the image is erect and the distance in between the object and its image is 100cm then the focal length of the spherical mirror is:",
       "options": [
         { "label": "a", "text": "15cm" },
@@ -322,7 +292,7 @@
       ]
     },
     {
-      "number": 33,
+      "number": 30,
       "question": "A short linear object of length 'b' is placed along the axis of a concave mirror. The distance of object from the pole of a concave mirror is u. Then the size of the image is equal to:",
       "options": [
         { "label": "a", "text": "b \\(\\left(\\frac{f}{u-f}\\right)\\)" },
@@ -332,7 +302,7 @@
       ]
     },
     {
-      "number": 34,
+      "number": 31,
       "question": "A luminous object is placed 50cm from surface of a convex mirror and a plane mirror is set so that virtual images formed in two mirrors coincide. If plane mirror is at a distance of 30cm from object, then focal length of convex mirror is: [HSEB]",
       "options": [
         { "label": "a", "text": "12.5cm" },
@@ -342,7 +312,7 @@
       ]
     },
     {
-      "number": 35,
+      "number": 32,
       "question": "A rod of length 10cm is placed parallel to the principal axis of a concave mirror. The nearest point of a rod is at a distance of 50cm from the mirror. The focal length of the concave mirror is 30cm. Then the length of the image is",
       "options": [
         { "label": "a", "text": "10cm" },
@@ -352,7 +322,7 @@
       ]
     },
     {
-      "number": 36,
+      "number": 33,
       "question": "A thin rod of length \\(\\frac{f}{3}\\) lies along the axis of a concave mirror of focal length f such that its real elongated image just touches an end of the rod. The length of the magnified image is",
       "options": [
         { "label": "a", "text": "f" },
@@ -362,7 +332,7 @@
       ]
     },
     {
-      "number": 37,
+      "number": 34,
       "question": "A thin rod of length \\(\\frac{f}{2}\\) lies along the axis of a concave mirror of focal length such that its real diminished image just touches the end of the rod. The length of its image is:",
       "options": [
         { "label": "a", "text": "f" },
@@ -372,7 +342,7 @@
       ]
     },
     {
-      "number": 38,
+      "number": 35,
       "question": "A square of side 3cm is placed at a distance of 25cm from a concave mirror of focal length 10cm. The centre of a square is passing through the principal focus and plane is normally to the principal focus. Then area of image is:",
       "options": [
         { "label": "a", "text": "1\\(\\text{cm}^2\\)" },
@@ -382,7 +352,7 @@
       ]
     },
     {
-      "number": 39,
+      "number": 36,
       "question": "The focal length of a concave mirror is f and the distance of the object to the principal focus is p. The ration of the size of the image to the size of the object is:",
       "options": [
         { "label": "a", "text": "f/p" },
@@ -392,7 +362,7 @@
       ]
     },
     {
-      "number": 40,
+      "number": 37,
       "question": "Two plane mirror parallel to each other are 10m apart. An object is placed at a distance of 4m from one of the mirrors. What is the distance between two second images formed by the two mirrors?",
       "options": [
         { "label": "a", "text": "16m" },
@@ -402,7 +372,7 @@
       ]
     },
     {
-      "number": 41,
+      "number": 38,
       "question": "A man is 180 cm tall and his eyes are 10 cm below the top of his head. In order to see his entire height right from the feet to the head he uses a plane mirror at a distance of 1m from him. The minimum height of the plane mirror required is [KU 2015]",
       "options": [
         { "label": "a", "text": "85cm" },
@@ -412,7 +382,7 @@
       ]
     },
     {
-      "number": 42,
+      "number": 39,
       "question": "If the object is real, a convex mirror always forms [IOM 2015]",
       "options": [
         { "label": "a", "text": "Real and inverted image" },
@@ -422,7 +392,7 @@
       ]
     },
     {
-      "number": 43,
+      "number": 40,
       "question": "Focal length of convex mirror is 30cm. if image is 5 times magnified. Then object distance will be? [IOM 2015]",
       "options": [
         { "label": "a", "text": "30cm" },
@@ -432,17 +402,7 @@
       ]
     },
     {
-      "number": 44,
-      "question": "A thin rod of length f/3 is placed along the optical axis of a concave mirror of focal length f such that its image which is real and elongated just touches the rod. The length of the image is [KU 2018]",
-      "options": [
-        { "label": "a", "text": "\\(\\frac{f}{2}\\)" },
-        { "label": "b", "text": "f" },
-        { "label": "c", "text": "\\(\\frac{3f}{4}\\)" },
-        { "label": "d", "text": "\\(\\frac{2f}{3}\\)" }
-      ]
-    },
-    {
-      "number": 45,
+      "number": 41,
       "question": "An object is placed at a distance of 40 cm from a concave mirror of focal length 15 cm. If the object is displaced through a distance of 20 cm towards the mirror, the displacement of the image will be: [KU 2019]",
       "options": [
         { "label": "a", "text": "36cm towards the mirror" },
@@ -452,17 +412,7 @@
       ]
     },
     {
-      "number": 46,
-      "question": "An object is placed at distance of 40 cm in front of a concave mirror having focal length 20 cm. What type of image is formed? [PAHS 2019]",
-      "options": [
-        { "label": "a", "text": "Real and erect" },
-        { "label": "b", "text": "Virtual and inverted" },
-        { "label": "c", "text": "Real, inverted and same size" },
-        { "label": "d", "text": "Real and virtual" }
-      ]
-    },
-    {
-      "number": 47,
+      "number": 42,
       "question": "If height of object is \"h\" and object distance is \"u\" from concave mirror of focal length \"f\", then height of image will be",
       "options": [
         { "label": "a", "text": "\\(\\frac{hf}{u-f}\\)" },

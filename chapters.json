@@ -1,8 +1,15 @@
 [
   {
-    "id": "wave-optics",
-    "name": "Wave Optics & Interference",
-    "file": "questions/wave-optics.json",
+    "id": "interference_optics",
+    "name": "Interference — Optics",
+    "file": "questions/interference_optics.json",
     "count": 76
+  },
+
+  {
+    "id": "reflection_optics",
+    "name": "Reflection — Optics",
+    "file": "questions/reflection_optics.json",
+    "count": 47
   }
 ]

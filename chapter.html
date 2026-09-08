@@ -75,6 +75,27 @@ MathJax = {
         const container = document.getElementById('questions');
         container.innerHTML = '';
 
+        if (mode === 'lectures') {
+          container.className = 'lectures';
+
+          data.lectures.forEach(lec => {
+            const a = document.createElement('a');
+            a.className = 'lecture-card';
+            a.href = `https://www.youtube.com/watch?v=${lec.youtubeId}`;
+            a.target = '_blank';
+            a.rel = 'noopener';
+
+            a.innerHTML = `
+              <div class="lecture-thumb">
+                <img src="https://img.youtube.com/vi/${lec.youtubeId}/hqdefault.jpg" alt="" loading="lazy">
+              </div>
+              <div class="lecture-title"><span class="lecture-title-text">${lec.title}</span></div>
+            `;
+            container.appendChild(a);
+          });
+          return;
+        }
+
         data.questions.forEach(q => {
           const div = document.createElement('div');
           div.className = 'question';

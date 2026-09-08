@@ -168,3 +168,90 @@ h1 {
   margin-right: 6px;
   color: #444;
 }
+
+/* ---- Chapter layout (chapter.html): sidebar + content ---- */
+
+.mobile-only {
+  display: inline-block;
+}
+
+.sidebar {
+  display: none;
+}
+
+.sidebar .back-link {
+  margin-bottom: 18px;
+}
+
+.sidebar .mode-switch {
+  display: flex;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.sidebar .mode-btn {
+  flex: 1;
+  padding: 7px 8px;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.sidebar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar-list .chapter-card {
+  padding: 10px 12px;
+  border-left-width: 4px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.sidebar-list .chapter-name {
+  font-size: 0.92em;
+}
+
+.sidebar-list .chapter-count {
+  font-size: 0.8em;
+}
+
+.chapter-card.active {
+  border-left-color: #f0a500;
+  background: #f4f7fb;
+}
+
+.chapter-card.active .chapter-name {
+  color: #1a3d6d;
+}
+
+@media (min-width: 900px) {
+  .wrap.chapter-layout {
+    max-width: 1200px;
+  }
+
+  .chapter-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .sidebar {
+    display: block;
+    flex: 1 1 0;
+    min-width: 220px;
+    position: sticky;
+    top: 24px;
+  }
+
+  .main-content {
+    flex: 4 1 0;
+    min-width: 0;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+}

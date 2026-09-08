@@ -1,0 +1,122 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fafafa;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 30px 20px 60px;
+}
+
+h1 {
+  color: #1a3d6d;
+  border-bottom: 3px solid #1a3d6d;
+  padding-bottom: 10px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.loading, .error {
+  color: #666;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.error {
+  color: #b00020;
+}
+
+/* ---- Chapter list (index.html) ---- */
+
+.chapter-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.chapter-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-left: 5px solid #1a3d6d;
+  border-radius: 6px;
+  padding: 16px 20px;
+  text-decoration: none;
+  color: #222;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.chapter-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.chapter-name {
+  font-weight: 600;
+  font-size: 1.05em;
+}
+
+.chapter-count {
+  color: #888;
+  font-size: 0.9em;
+}
+
+/* ---- Question viewer (chapter.html) ---- */
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 14px;
+  color: #1a3d6d;
+  text-decoration: none;
+  font-size: 0.95em;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.questions .question {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-left: 5px solid #1a3d6d;
+  border-radius: 6px;
+  padding: 14px 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.qnum {
+  font-weight: bold;
+  color: #1a3d6d;
+  margin-right: 6px;
+}
+
+.qtext {
+  font-weight: 600;
+}
+
+.options {
+  list-style: none;
+  padding-left: 8px;
+  margin: 8px 0 0;
+}
+
+.options li {
+  padding: 3px 0;
+}
+
+.options li .label {
+  font-weight: bold;
+  margin-right: 6px;
+  color: #444;
+}

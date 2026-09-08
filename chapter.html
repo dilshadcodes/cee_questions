@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter — MCQ Bank</title>
+<link rel="stylesheet" href="style.css">
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['\\(', '\\)']],
+    displayMath: [['\\[', '\\]']]
+  }
+};
+</script>
+<script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+</head>
+<body>
+
+<div class="wrap">
+  <a href="index.html" class="back-link">&larr; All chapters</a>
+  <h1 id="chapter-title">Loading…</h1>
+  <div id="questions" class="questions">
+    <p class="loading">Loading questions…</p>
+  </div>
+</div>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const chapterId = params.get('id');
+
+  if (!chapterId) {
+    document.getElementById('chapter-title').textContent = 'No chapter specified';
+    document.getElementById('questions').innerHTML =
+      '<p class="error">Go back and pick a chapter from the list.</p>';
+  } else {
+    fetch('chapters.json')
+      .then(res => res.json())
+      .then(chapters => {
+        const chapter = chapters.find(c => c.id === chapterId);
+        if (!chapter) throw new Error(`Chapter "${chapterId}" not found`);
+
+        document.getElementById('chapter-title').textContent = chapter.name;
+        document.title = chapter.name + ' — MCQ Bank';
+
+        return fetch(chapter.file);
+      })
+      .then(res => {
+        if (!res.ok) throw new Error('Could not load question file');
+        return res.json();
+      })
+      .then(data => {
+        const container = document.getElementById('questions');
+        container.innerHTML = '';
+
+        data.questions.forEach(q => {
+          const div = document.createElement('div');
+          div.className = 'question';
+
+          const optionsHtml = q.options.map(opt => `
+            <li><span class="label">${opt.label}.</span>${opt.text}</li>
+          `).join('');
+
+          div.innerHTML = `
+            <span class="qnum">${q.number}.</span>
+            <span class="qtext">${q.question}</span>
+            <ul class="options">${optionsHtml}</ul>
+          `;
+          container.appendChild(div);
+        });
+
+        // Ask MathJax to typeset the newly inserted content
+        if (window.MathJax && MathJax.typesetPromise) {
+          MathJax.typesetPromise();
+        }
+      })
+      .catch(err => {
+        document.getElementById('chapter-title').textContent = 'Error';
+        document.getElementById('questions').innerHTML =
+          `<p class="error">${err.message}</p>`;
+      });
+  }
+</script>
+
+</body>
+</html>

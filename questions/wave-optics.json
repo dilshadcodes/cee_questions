@@ -1,0 +1,1677 @@
+{
+  "chapter": "Wave Optics & Interference",
+  "questions": [
+    {
+      "number": 1,
+      "question": "The ratio of maximum to minimum intensities in young's double slit interference is 16, then the ratio of their individual intensities is",
+      "options": [
+        {
+          "label": "a",
+          "text": "16:9"
+        },
+        {
+          "label": "b",
+          "text": "9:16"
+        },
+        {
+          "label": "c",
+          "text": "25:9"
+        },
+        {
+          "label": "d",
+          "text": "16:25"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "question": "Interference when two waves of intensities \\(I_1\\) and \\(I_2\\) differing in phase by \\(\\phi\\) superimpose, the contrast will be maximum if",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(I_1 = I_2\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(I_1 = I_2 / 2\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(I_1 = I_2 / 3\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(4I_1 / I_2\\)"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "question": "Which of the following doesn't explain wave theory of light",
+      "options": [
+        {
+          "label": "a",
+          "text": "Polarization"
+        },
+        {
+          "label": "b",
+          "text": "Interference"
+        },
+        {
+          "label": "c",
+          "text": "Diffraction"
+        },
+        {
+          "label": "d",
+          "text": "Photoelectric effect."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "question": "When a light ray is illuminated on a glass slab of refractive index 4/3, such that reflected ray is polarized, then angle made by the ray with the horizontal is:",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(36^\\circ\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(37^\\circ\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(38^\\circ\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(39^\\circ\\)"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "question": "Two light rays having the same wavelength \\(\\lambda\\) in vacuum are in phase initially. Then the first ray travels a path \\(L_1\\) through a medium of refractive index \\(\\mu_1\\), while the second ray travels a path of length \\(L_2\\) through a medium of refractive index \\(\\mu_2\\). The two waves are then combined to observe interference. The phase difference between the two waves is",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{2\\pi}{\\lambda}(L_2 - L_1)\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{2\\pi}{\\lambda}(\\mu_1 L_1 - \\mu_2 L_2)\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{2\\pi}{\\lambda}(\\mu_2 L_1 - \\mu_1 L_2)\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{2\\pi}{\\lambda}\\left(\\frac{L_1}{\\mu_1} - \\frac{L_2}{\\mu_2}\\right)\\)"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "question": "What happens to the fringe pattern when the young's double slit experiment is performed in water instead of air?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Shrinks"
+        },
+        {
+          "label": "b",
+          "text": "Disappears"
+        },
+        {
+          "label": "c",
+          "text": "Unchanged"
+        },
+        {
+          "label": "d",
+          "text": "Enlarged"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "question": "A beam of light strikes on a thin soap bubble surface. After refraction the ray of light form interference pattern on the screen. If \\(\\Delta x\\) and \\(r\\) is the path difference and angle of refraction then graph denoting their correct relation is:",
+      "options": [
+        {
+          "label": "a",
+          "text": "Graph showing \\(\\Delta x\\) increasing linearly with \\(r \\rightarrow 90^\\circ\\) starting from origin"
+        },
+        {
+          "label": "b",
+          "text": "Graph showing \\(\\Delta x\\) decreasing linearly as \\(r \\rightarrow 90^\\circ\\)"
+        },
+        {
+          "label": "c",
+          "text": "Graph showing \\(\\Delta x\\) increasing with a curve as \\(r \\rightarrow 90^\\circ\\)"
+        },
+        {
+          "label": "d",
+          "text": "Graph showing \\(\\Delta x\\) decreasing as a curve to zero as \\(r \\rightarrow 90^\\circ\\)"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "question": "Young's double slit experiment is made in a liquid. The \\(10^{\\text{th}}\\) bright fringe in liquid lies where \\(6^{\\text{th}}\\) dark fringe lies in vaccum. The refractive index of the liquid is approximately",
+      "options": [
+        {
+          "label": "a",
+          "text": "1.8"
+        },
+        {
+          "label": "b",
+          "text": "1.54"
+        },
+        {
+          "label": "c",
+          "text": "1.67"
+        },
+        {
+          "label": "d",
+          "text": "1.2"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "question": "In young's double slit experiment the separation of slit is 1.9 mm and fringe spacing is 0.31 mm at distance 1 m from the slit. The wavelength of light used is",
+      "options": [
+        {
+          "label": "a",
+          "text": "5890Å"
+        },
+        {
+          "label": "b",
+          "text": "6129Å"
+        },
+        {
+          "label": "c",
+          "text": "3100Å"
+        },
+        {
+          "label": "d",
+          "text": "1631Å"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "question": "If the amplitude is in the ratio of 2:3 then intensity will be in the ratio of (given that frequency is same)",
+      "options": [
+        {
+          "label": "a",
+          "text": "2:3"
+        },
+        {
+          "label": "b",
+          "text": "9:4"
+        },
+        {
+          "label": "c",
+          "text": "3:2"
+        },
+        {
+          "label": "d",
+          "text": "4:9"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "question": "Two waves each of loudness 'L superimpose to produce beats. The maximum loudness of the beats will be",
+      "options": [
+        {
+          "label": "a",
+          "text": "L"
+        },
+        {
+          "label": "b",
+          "text": "4L"
+        },
+        {
+          "label": "c",
+          "text": "2L"
+        },
+        {
+          "label": "d",
+          "text": "6L"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "question": "The polarizing angle between reflected and refracted rays is",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(0^\\circ\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(45^\\circ\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(90^\\circ\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(180^\\circ\\)"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "question": "In young's double slit experiment, 12 fringes are obtained in a certain fragment of the screen when light of wavelength 600 nm is used. If the wavelength of light is changed to 400 nm, number of fringes obtained in the same segment of the screen will be:",
+      "options": [
+        {
+          "label": "a",
+          "text": "12"
+        },
+        {
+          "label": "b",
+          "text": "18"
+        },
+        {
+          "label": "c",
+          "text": "24"
+        },
+        {
+          "label": "d",
+          "text": "30"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "question": "The width of the third fringe in young's double slit interference experiment is 0.1 mm. The width of the fifth fringe will be:",
+      "options": [
+        {
+          "label": "a",
+          "text": "0.17 mm"
+        },
+        {
+          "label": "b",
+          "text": "0.06 mm"
+        },
+        {
+          "label": "c",
+          "text": "0.5 mm"
+        },
+        {
+          "label": "d",
+          "text": "0.1 mm"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "question": "Two coherent monochromatic light beams of intensities in the ratio 1:4 are superposed, the ratio of maximum to minimum possible intensities in the resulting beam is",
+      "options": [
+        {
+          "label": "a",
+          "text": "5:1"
+        },
+        {
+          "label": "b",
+          "text": "5:3"
+        },
+        {
+          "label": "c",
+          "text": "9:1"
+        },
+        {
+          "label": "d",
+          "text": "9:3"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "question": "The fringe width in an interference pattern due to two coherent sources is",
+      "options": [
+        {
+          "label": "a",
+          "text": "Proportional to the square of wavelength."
+        },
+        {
+          "label": "b",
+          "text": "Proportional to the wavelength."
+        },
+        {
+          "label": "c",
+          "text": "Inversely proportional to the square of wavelength."
+        },
+        {
+          "label": "d",
+          "text": "Inversely proportional to the wavelength."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "question": "In young's experiment, one slit is covered with a transparent blue filter and the other is left as it is then the interference pattern.",
+      "options": [
+        {
+          "label": "a",
+          "text": "Will be blue"
+        },
+        {
+          "label": "b",
+          "text": "Will be yellow"
+        },
+        {
+          "label": "c",
+          "text": "Will be green"
+        },
+        {
+          "label": "d",
+          "text": "Will not be formed."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "question": "A laser produces",
+      "options": [
+        {
+          "label": "a",
+          "text": "Highly penetrating X - rays."
+        },
+        {
+          "label": "b",
+          "text": "A beam of fast moving neutron."
+        },
+        {
+          "label": "c",
+          "text": "A beam of monochromatic incoherent light."
+        },
+        {
+          "label": "d",
+          "text": "A beam of monochromatic coherent light."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "question": "Two waves are defined to be coherent if",
+      "options": [
+        {
+          "label": "a",
+          "text": "They are emitted by identical sources close together."
+        },
+        {
+          "label": "b",
+          "text": "They have a constant phase difference between them."
+        },
+        {
+          "label": "c",
+          "text": "They have the same amplitude and frequency."
+        },
+        {
+          "label": "d",
+          "text": "They have the same wavelength and speed."
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "question": "The fact that light can be polarized establishes the light",
+      "options": [
+        {
+          "label": "a",
+          "text": "Travels in the form of particles."
+        },
+        {
+          "label": "b",
+          "text": "Is an electromagnetic wave."
+        },
+        {
+          "label": "c",
+          "text": "Is an longitudinal wave"
+        },
+        {
+          "label": "d",
+          "text": "Is a transverse wave."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "question": "In young's double slit experiment fringe width is 2 mm. Separation between \\(9^{\\text{th}}\\) bright fringe and \\(2^{\\text{nd}}\\) dark fringe from the centre of the fringe system is:",
+      "options": [
+        {
+          "label": "a",
+          "text": "5 mm"
+        },
+        {
+          "label": "b",
+          "text": "10 mm"
+        },
+        {
+          "label": "c",
+          "text": "15 mm"
+        },
+        {
+          "label": "d",
+          "text": "20 mm"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "question": "Yellow light is used in a single slit diffraction experiment with a slit of width 0.6 mm. If yellow light is replaced by X-rays, the observed pattern will reveal that",
+      "options": [
+        {
+          "label": "a",
+          "text": "Central maxima is narrower."
+        },
+        {
+          "label": "b",
+          "text": "More no. of fringes."
+        },
+        {
+          "label": "c",
+          "text": "Less no. of fringes."
+        },
+        {
+          "label": "d",
+          "text": "No diffraction pattern observed."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "question": "A young's double slit experiment having fringe width of 0.4 mm is immersed inside the water having \\(\\mu = 4/3\\). The fringe width becomes:",
+      "options": [
+        {
+          "label": "a",
+          "text": "0.4 mm"
+        },
+        {
+          "label": "b",
+          "text": "0.3 mm"
+        },
+        {
+          "label": "c",
+          "text": "0.33 mm"
+        },
+        {
+          "label": "d",
+          "text": "0.45 mm"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "question": "Sound quality of a portable radio is improved by adjusting the orientation of the aerial. Which statement is a correct explanation of this improvement?",
+      "options": [
+        {
+          "label": "a",
+          "text": "The radio waves from the transmitter are polarized."
+        },
+        {
+          "label": "b",
+          "text": "The radio waves from the transmitter are un polarized."
+        },
+        {
+          "label": "c",
+          "text": "The radio waves become polarized as a result of adjusting the aerial."
+        },
+        {
+          "label": "d",
+          "text": "The radio waves become un polarized as a result of adjusting the aerial."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "question": "Unusual coloration seen in oil drops is due to",
+      "options": [
+        {
+          "label": "a",
+          "text": "Reflection."
+        },
+        {
+          "label": "b",
+          "text": "Refraction."
+        },
+        {
+          "label": "c",
+          "text": "Polarization."
+        },
+        {
+          "label": "d",
+          "text": "Interference."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "question": "A radar sends a signal of frequency \\(78 \\times 10^9/\\text{s}\\) towards aeroplane moving with certain velocity a frequency difference of \\(2.7 \\times 10^3/\\text{s}\\) is reflected from aeroplane. Find the velocity of aeroplane.",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(1.87 \\times 10^2\\text{ km/hr}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(2.87 \\times 10^2\\text{ km/hr}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(0.87 \\times 10^2\\text{ km/hr}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(3.74 \\times 10^3\\text{ km/hr}\\)"
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "question": "The fringe width interference of monochromatic light produced by double slit experiment is \\(\\beta\\). The wavelength of light is \\(\\lambda\\). Then the ratio of the slit separation to the distance of the slits and the screen is:",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\beta \\lambda\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\lambda / \\beta\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(1 / \\lambda \\beta\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\beta^2 / \\lambda\\)"
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "question": "A beam of light is passed through two parallelly placed tourmaline plates. Now when one of the plate is rotated, brightness is changed due to:",
+      "options": [
+        {
+          "label": "a",
+          "text": "polarisation"
+        },
+        {
+          "label": "b",
+          "text": "dispersion"
+        },
+        {
+          "label": "c",
+          "text": "diffraction"
+        },
+        {
+          "label": "d",
+          "text": "interference"
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "question": "The wave nature of matter is not apparent to our daily observations because the magnitude of the associated wavelength of the object is:",
+      "options": [
+        {
+          "label": "a",
+          "text": "Negligible compared to the size of the object"
+        },
+        {
+          "label": "b",
+          "text": "Zero"
+        },
+        {
+          "label": "c",
+          "text": "Extremely large compared to the size of the object"
+        },
+        {
+          "label": "d",
+          "text": "Infinity"
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "question": "In a diffraction experiment a plane transmission grating having 5500 lines/cm is illuminated by a source of light of wavelength 6000 Angstrom. Number of maxima observed on the screen will be:",
+      "options": [
+        {
+          "label": "a",
+          "text": "2"
+        },
+        {
+          "label": "b",
+          "text": "3"
+        },
+        {
+          "label": "c",
+          "text": "5"
+        },
+        {
+          "label": "d",
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "question": "Which of the following is the most appropriate?",
+      "options": [
+        {
+          "label": "a",
+          "text": "transverse wave can't be reflected"
+        },
+        {
+          "label": "b",
+          "text": "longitudinal wave can't be refracted"
+        },
+        {
+          "label": "c",
+          "text": "stationary wave has node at its first end"
+        },
+        {
+          "label": "d",
+          "text": "transverse wave can be polarized"
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "question": "The frequency of radiowaves is 15 MHz. What is its wavelength?",
+      "options": [
+        {
+          "label": "a",
+          "text": "20 m"
+        },
+        {
+          "label": "b",
+          "text": "15 m"
+        },
+        {
+          "label": "c",
+          "text": "5 m"
+        },
+        {
+          "label": "d",
+          "text": "25 m"
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "question": "In an interference pattern minima are obtained when phase difference between interfering waves is:",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\pi/2\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(2\\pi\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(n\\pi/2\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\((2n + 1)\\pi\\)"
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "question": "Phase difference between 2 waves \\(y_1 = a \\sin \\omega t\\) and \\(y_2 = b \\cos \\omega t\\) is given by:",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\pi\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\pi/2\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\pi/3\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\pi/4\\)"
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "question": "Interference pattern is not produced by:",
+      "options": [
+        {
+          "label": "a",
+          "text": "two candles"
+        },
+        {
+          "label": "b",
+          "text": "two pinholes"
+        },
+        {
+          "label": "c",
+          "text": "two slits of same aperture"
+        },
+        {
+          "label": "d",
+          "text": "two sources of same frequency"
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "question": "Diffraction isn't seen in case:",
+      "options": [
+        {
+          "label": "a",
+          "text": "If screen is far"
+        },
+        {
+          "label": "b",
+          "text": "Wavelength of light is small than slit"
+        },
+        {
+          "label": "c",
+          "text": "Wavelength of light is greater than slit"
+        },
+        {
+          "label": "d",
+          "text": "Wavelength is very large"
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "question": "In a double slit diffraction, central bright fringe is obtained if path difference is multiple of:",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{\\lambda}{2}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{\\lambda}{4}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{3\\lambda}{2}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\lambda\\)"
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "question": "In an interference pattern produced by the identical coherent sources of monochromatic light, the intensity at the site of central maxima is I. The new intensity of central maxima when one of the slits is closed is:",
+      "options": [
+        {
+          "label": "a",
+          "text": "I"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{I}{2}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{I}{4}\\)"
+        },
+        {
+          "label": "d",
+          "text": "2I"
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "question": "In a diffraction experiment using light of wavelength \\(\\lambda\\), d is the separation between the slits, D is distance of screen from slits. For what value of D, width of central maxima is equal to d?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{d^2}{2\\lambda}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{d}{2\\lambda}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{2\\lambda}{d^2}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{d}{\\lambda}\\)"
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "question": "Interference occurs mostly due to:",
+      "options": [
+        {
+          "label": "a",
+          "text": "Reflection"
+        },
+        {
+          "label": "b",
+          "text": "Refraction"
+        },
+        {
+          "label": "c",
+          "text": "Polarisation"
+        },
+        {
+          "label": "d",
+          "text": "Diffraction"
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "question": "Sky appear blue due to:",
+      "options": [
+        {
+          "label": "a",
+          "text": "more scattering of light of larger wavelength"
+        },
+        {
+          "label": "b",
+          "text": "more scattering of light of lesser wavelength"
+        },
+        {
+          "label": "c",
+          "text": "lens of eye is blue"
+        },
+        {
+          "label": "d",
+          "text": "all"
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "question": "If two waves of same amplitude A but having different frequencies interfere, then:",
+      "options": [
+        {
+          "label": "a",
+          "text": "resultant amplitude varies from 0 to 2A"
+        },
+        {
+          "label": "b",
+          "text": "resultant amplitude varies from 0 to A"
+        },
+        {
+          "label": "c",
+          "text": "resultant amplitude remains the same"
+        },
+        {
+          "label": "d",
+          "text": "resultant amplitude varies from A to 2A"
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "question": "The ratio of amplitudes of two coherent sources is 1:2 then the ratio of maximum and minimum interference intensity fringe is:",
+      "options": [
+        {
+          "label": "a",
+          "text": "6:1"
+        },
+        {
+          "label": "b",
+          "text": "8:1"
+        },
+        {
+          "label": "c",
+          "text": "9:1"
+        },
+        {
+          "label": "d",
+          "text": "27:1"
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "question": "In Young's double slit interference experiment of the slit is made 3 folds, the fringe width becomes.",
+      "options": [
+        {
+          "label": "a",
+          "text": "1/3 folds"
+        },
+        {
+          "label": "b",
+          "text": "3 folds"
+        },
+        {
+          "label": "c",
+          "text": "3/6 folds"
+        },
+        {
+          "label": "d",
+          "text": "6 folds"
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "question": "In the Young's double slit experiment, if the widths of the slits are in the ratio 4:9, the ratio of the intensity at maxima to the intensity at minima will be",
+      "options": [
+        {
+          "label": "a",
+          "text": "169 : 25"
+        },
+        {
+          "label": "b",
+          "text": "81 : 16"
+        },
+        {
+          "label": "c",
+          "text": "25 : 1"
+        },
+        {
+          "label": "d",
+          "text": "9 : 4"
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "question": "An interference pattern is observed by Young's double slit experiment. If now the separation between the coherent sources is halved and the distance of screen from coherent source is double, the fringe width:",
+      "options": [
+        {
+          "label": "a",
+          "text": "becomes double"
+        },
+        {
+          "label": "b",
+          "text": "becomes one-fourth"
+        },
+        {
+          "label": "c",
+          "text": "remains same"
+        },
+        {
+          "label": "d",
+          "text": "becomes four times"
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "question": "Fringe width observed in Young's double slit experiment is \\(\\beta\\). If the frequency of the source is doubled, the fringe will become/remain",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(2\\beta\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{3\\beta}{2}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\beta\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{\\beta}{2}\\)"
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "question": "A beam of electron is used in Young's double slit experiment. When the velocity of electron is increased then",
+      "options": [
+        {
+          "label": "a",
+          "text": "no interference is observed"
+        },
+        {
+          "label": "b",
+          "text": "fringe width increases"
+        },
+        {
+          "label": "c",
+          "text": "fringe width decreases"
+        },
+        {
+          "label": "d",
+          "text": "fringe width remains the same"
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "question": "In Young's double slit experiment, the fifth maximum with wavelength \\(\\lambda_1\\) is at a distance \\(d_1\\) and the same maxima with wavelength \\(\\lambda_2\\) is at a distance \\(d_2\\). Then \\(d_1/d_2\\) is equal to",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{\\lambda_1}{\\lambda_2}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{\\lambda_2}{\\lambda_1}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{\\lambda_1^2}{\\lambda_2^2}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{\\lambda_2^2}{\\lambda_1^2}\\)"
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "question": "Two light waves of wavelength \\(\\lambda_1\\) and \\(\\lambda_2\\) become incident simultaneously on double slits in Young's interference experiment. If \\(3^{\\text{rd}}\\) bright fringe of wavelength \\(\\lambda_1\\) meets \\(4^{\\text{th}}\\) bright fringe of wavelength \\(\\lambda_2\\), then",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\lambda_1 = 3\\lambda_2\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\lambda_2 = 3\\lambda_1\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(3\\lambda_1 = 4\\lambda_2\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(4\\lambda_1 = 3\\lambda_2\\)"
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "question": "The two coherent sources with intensity ratio \\(\\beta\\) produce interference. The fringe visibility will be:",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{2\\sqrt{\\beta}}{1+\\beta}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(2\\beta\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{2}{1+\\beta}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{\\sqrt{\\beta}}{1+\\beta}\\)"
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "question": "In a Young's double slit experiment, the distance in between two slits is \\(\\left(\\frac{0.1}{\\pi}\\right)\\text{mm}\\). The distance in between slit and screen is 25cm. If wavelength of light used is 5000Å then the angular thickness of fifth dark fringe is",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(0.15^\\circ\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(0.30^\\circ\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(0.45^\\circ\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(0.60^\\circ\\)"
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "question": "In Young's double slit experiment the two slits act as coherent sources of equal amplitude a and of wavelength \\(\\lambda\\). In another experiment with the same set-up the two slits are sources of equal amplitude a and wavelength \\(\\lambda\\), but are incoherent. The ratio of intensity of light at the midpoint of the screen in the first case of that in the second case is:",
+      "options": [
+        {
+          "label": "a",
+          "text": "1:1"
+        },
+        {
+          "label": "b",
+          "text": "1:2"
+        },
+        {
+          "label": "c",
+          "text": "2:1"
+        },
+        {
+          "label": "d",
+          "text": "4:1"
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "question": "In Young's experiment the wavelength of red light is 7800Å and that the blue light is 5200Å. The value of 'n' for which \\((n+1)^{\\text{th}}\\) blue band coincides with \\(n^{\\text{th}}\\) red band is:",
+      "options": [
+        {
+          "label": "a",
+          "text": "4"
+        },
+        {
+          "label": "b",
+          "text": "3"
+        },
+        {
+          "label": "c",
+          "text": "2"
+        },
+        {
+          "label": "d",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "question": "In a biprism experiment the wavelength of monochromatic light used is 6000Å. The distance between the two virtual sources is 6mm. The number of fringes formed per mm on a screen placed 1m away is:",
+      "options": [
+        {
+          "label": "a",
+          "text": "5"
+        },
+        {
+          "label": "b",
+          "text": "10"
+        },
+        {
+          "label": "c",
+          "text": "15"
+        },
+        {
+          "label": "d",
+          "text": "20"
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "question": "A thin sheet of glass (\\(\\mu = 1.5\\)) of thickness 6 microns introduced in the path of one of interfering beams in a double slit experiment shifts the central fringe to a position previously occupied by fifth bright fringe. Then the wavelength of light used is",
+      "options": [
+        {
+          "label": "a",
+          "text": "6000Å"
+        },
+        {
+          "label": "b",
+          "text": "3000Å"
+        },
+        {
+          "label": "c",
+          "text": "4500Å"
+        },
+        {
+          "label": "d",
+          "text": "7500Å"
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "question": "Light of wavelength 6000Å is reflected at nearly normal incidence from a soap film of refractive index 1.4. The least thickness of the film that will appear black is",
+      "options": [
+        {
+          "label": "a",
+          "text": "2000Å"
+        },
+        {
+          "label": "b",
+          "text": "1000Å"
+        },
+        {
+          "label": "c",
+          "text": "200Å"
+        },
+        {
+          "label": "d",
+          "text": "infinity"
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "question": "In Young's double slit experiment, the two equally bright slits are coherent, but of phase difference \\(\\pi/3\\). If maximum intensity on the screen is \\(I_0\\), the intensity at the point on the screen equidistant from the slit is",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(I_0\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(I_0 / 2\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(I_0 / 4\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(3I_0 / 4\\)"
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "question": "In Young's double slit experiment the aperture screen distance is 2m. The fringe width is 1mm. If a thin plate of glass (\\(\\mu = 1.5\\)) of thickness 0.006mm is placed over one of the slits, then there will be a lateral displacement of fringe by",
+      "options": [
+        {
+          "label": "a",
+          "text": "0cm"
+        },
+        {
+          "label": "b",
+          "text": "5mm"
+        },
+        {
+          "label": "c",
+          "text": "5cm"
+        },
+        {
+          "label": "d",
+          "text": "15mm"
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "question": "A diffraction pattern is obtained using a beam of red light. What happens if the red light is replaced by blue light?",
+      "options": [
+        {
+          "label": "a",
+          "text": "no change."
+        },
+        {
+          "label": "b",
+          "text": "diffraction bands become narrower and crowded together."
+        },
+        {
+          "label": "c",
+          "text": "diffraction bands become broader and farther apart."
+        },
+        {
+          "label": "d",
+          "text": "diffraction bands disappear."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "question": "A parallel beam of light of wavelength 5000Å is incident normally in a single slit of width 0.001mm. The light is focused by a convex lens on a screen placed in focal plane. The first minimum is formed for the angle of diffraction equal to",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(0^\\circ\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(15^\\circ\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(30^\\circ\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(60^\\circ\\)"
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "question": "A beam of light of wavelength 600nm from a distant source falls on a single slit 1.0mm wide and the resulting diffraction pattern is observed on a screen 2m away. The distance between the fifth dark fringes on either side of the central bright fringe is:",
+      "options": [
+        {
+          "label": "a",
+          "text": "1.2cm"
+        },
+        {
+          "label": "b",
+          "text": "1.2mm"
+        },
+        {
+          "label": "c",
+          "text": "2.4cm"
+        },
+        {
+          "label": "d",
+          "text": "2.4mm"
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "question": "Light of wavelength 6328Å is incident on a slit having width of 0.2mm. The width of central maximum, measured from minimum to minimum of the diffraction pattern on a screen 9m away will be about:",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(0.36^\\circ\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(0.18^\\circ\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(0.72^\\circ\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(0.09^\\circ\\)"
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "question": "A slit of width \\(12 \\times 10^{-7}\\text{m}\\) is illuminated by light of wavelength 6000Å. The angular width of the central maxima is approximately.",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(30^\\circ\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(60^\\circ\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(90^\\circ\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(0^\\circ\\)"
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "question": "A slit of width d is placed in front of a lens of focal length 0.5m and is illuminated normally with light of wavelength \\(5.89 \\times 10^{-7}\\text{ m}\\). The first diffraction minima on either side of the central diffraction maxima are separated by \\(2 \\times 10^{-3}\\text{m}\\). The width of the slit is",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(1.47 \\times 10^{-4}\\text{m}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(2.29 \\times 10^{-4}\\text{m}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(1.47 \\times 10^{-7}\\text{m}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(2.29 \\times 10^{-7}\\text{m}\\)"
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "question": "A parallel beam of monochromatic light is incident normally on a slit. The diffraction pattern is observed on a screen placed at the focal plane of a convex lens. If the slit is increased, the central maximum of the diffraction pattern will become",
+      "options": [
+        {
+          "label": "a",
+          "text": "broader and fainter"
+        },
+        {
+          "label": "b",
+          "text": "broader and brighter"
+        },
+        {
+          "label": "c",
+          "text": "narrower and fainter"
+        },
+        {
+          "label": "d",
+          "text": "narrower and brighter"
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "question": "Find the angle of diffraction for first order secondary minima if wavelength of light used is 550nm and slit of width 0.55mm",
+      "options": [
+        {
+          "label": "a",
+          "text": "1.0 rad"
+        },
+        {
+          "label": "b",
+          "text": "0.10 rad"
+        },
+        {
+          "label": "c",
+          "text": "0.010 rad"
+        },
+        {
+          "label": "d",
+          "text": "0.001 rad"
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "question": "Fraunhofer diffraction experiment at a single slit using light of wavelength 400nm, the first minimum is formed at an angle of \\(30^\\circ\\). Then the direction \\(\\theta\\) of the first secondary maximum is given by:",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\tan^{-1}\\left(\\frac{3}{4}\\right)\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\sin^{-1}\\left(\\frac{3}{4}\\right)\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(60^\\circ\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\tan^{-1}\\left(\\frac{4}{3}\\right)\\)"
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "question": "In a single slit diffraction experiment, the width of the slit is made double the original width. If \\(I_0\\) is the intensity of the principal maximum, then the new intensity will be",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(I_0\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(2I_0\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(4I_0\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(I_0 / 2\\)"
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "question": "An unpolarised light wave is travelling along positive X-axis. The electric field vector in the beam vibrates in the direction of",
+      "options": [
+        {
+          "label": "a",
+          "text": "positive Y-axis definitely"
+        },
+        {
+          "label": "b",
+          "text": "positive Z-axis definitely"
+        },
+        {
+          "label": "c",
+          "text": "positive X-axis"
+        },
+        {
+          "label": "d",
+          "text": "Y or Z-axis"
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "question": "An unpolarised beam of intensity \\(I_0\\) falls on a polaroid. The intensity of emergent light is",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(I_0\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{I_0}{2}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{I_0}{4}\\)"
+        },
+        {
+          "label": "d",
+          "text": "zero"
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "question": "An upolarised beam of intensity \\(I_0\\) is incident on a pair of Nicols making in angle \\(60^\\circ\\) with each other. The intensity of light emerging from the pair is",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(I_0\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{I_0}{2}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{I_0}{4}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{I_0}{8}\\)"
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "question": "Ordinary light incident on a glass slab at the polarising angle is refracted in glass and suffers a deviation of \\(22^\\circ\\). The value of the angle of refraction in glass in this case is",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(68^\\circ\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(56^\\circ\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(22^\\circ\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(34^\\circ\\)"
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "question": "An unpolarised light of amplitude a is incident on polariser then amplitude of polarised light emerging from polariser is",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{a}{2}\\)"
+        },
+        {
+          "label": "b",
+          "text": "2a"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{a}{\\sqrt{2}}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{a}{4}\\)"
+        }
+      ]
+    },
+    {
+      "number": 101,
+      "question": "A ray of light strikes a glass plate at an angle of \\(60^\\circ\\). If the reflected and refracted rays are perpendicular to each other, the index of refraction of glass is",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{\\sqrt{3}}{2}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{3}{2}\\)"
+        },
+        {
+          "label": "d",
+          "text": "1.732"
+        }
+      ]
+    },
+    {
+      "number": 103,
+      "question": "A ray of light from a denser medium strikes a rarer medium so that the reflected and refracted rays make an angle of \\(90^\\circ\\) with each other. The angles of reflection and refraction are r and r' respectively. Then critical angle would be:",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\sin^{-1}(\\tan r)\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\tan^{-1}(\\sin i)\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\sin^{-1}(\\tan r')\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\tan^{-1}(\\sin r)\\)"
+        }
+      ]
+    }
+  ]
+}

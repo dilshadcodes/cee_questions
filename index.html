@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MCQ Bank — Chapters</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <h1>CEE Question Bank</h1>
+  <p class="subtitle">Select a chapter to view its questions.</p>
+
+  <div id="chapter-list" class="chapter-list">
+    <p class="loading">Loading chapters…</p>
+  </div>
+</div>
+
+<script>
+  fetch('chapters.json')
+    .then(res => {
+      if (!res.ok) throw new Error('Could not load chapters.json');
+      return res.json();
+    })
+    .then(chapters => {
+      const container = document.getElementById('chapter-list');
+      container.innerHTML = '';
+
+      if (!chapters.length) {
+        container.innerHTML = '<p class="loading">No chapters added yet.</p>';
+        return;
+      }
+
+      chapters.forEach(ch => {
+        const card = document.createElement('a');
+        card.className = 'chapter-card';
+        card.href = `chapter.html?id=${encodeURIComponent(ch.id)}`;
+        card.innerHTML = `
+          <span class="chapter-name">${ch.name}</span>
+          <span class="chapter-count">${ch.count ? ch.count + ' questions' : ''}</span>
+        `;
+        container.appendChild(card);
+      });
+    })
+    .catch(err => {
+      document.getElementById('chapter-list').innerHTML =
+        `<p class="error">Failed to load chapters: ${err.message}</p>`;
+    });
+</script>
+
+</body>
+</html>

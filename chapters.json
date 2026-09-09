@@ -17,4 +17,264 @@
     "name": "Refraction I — Optics",
     "questions": { "file": "questions/refraction_1_optics.json", "count": 47 }
   }
+,
+
+  {
+    "id": "biodiversity_botany",
+    "name": "BIODIVERSITY — Botany",
+    "lectures": {
+      "file": "lectures/biodiversity_botany.json",
+      "count": 36
+    }
+  }
+,
+
+  {
+    "id": "moorphology_botany",
+    "name": "MOORPHOLOGY — Botany",
+    "lectures": {
+      "file": "lectures/moorphology_botany.json",
+      "count": 15
+    }
+  }
+,
+
+  {
+    "id": "ecology_botany",
+    "name": "ECOLOGY — Botany",
+    "lectures": {
+      "file": "lectures/ecology_botany.json",
+      "count": 10
+    }
+  }
+,
+
+  {
+    "id": "plant_reproduction_botany",
+    "name": "PLANT REPRODUCTION — Botany",
+    "lectures": {
+      "file": "lectures/plant_reproduction_botany.json",
+      "count": 10
+    }
+  }
+,
+
+  {
+    "id": "plant_physiology_botany",
+    "name": "PLANT PHYSIOLOGY — Botany",
+    "lectures": {
+      "file": "lectures/plant_physiology_botany.json",
+      "count": 2
+    }
+  }
+,
+
+  {
+    "id": "percentage_change_physics",
+    "name": "PERCENTAGE CHANGE — Physics",
+    "lectures": {
+      "file": "lectures/percentage_change_physics.json",
+      "count": 2
+    }
+  }
+,
+
+  {
+    "id": "scalars_and_vectors_physics",
+    "name": "SCALARS AND VECTORS — Physics",
+    "lectures": {
+      "file": "lectures/scalars_and_vectors_physics.json",
+      "count": 10
+    }
+  }
+,
+
+  {
+    "id": "cathode_rays_physics",
+    "name": "CATHODE RAYS — Physics",
+    "lectures": {
+      "file": "lectures/cathode_rays_physics.json",
+      "count": 10
+    }
+  }
+,
+
+  {
+    "id": "photoelectric_effect_physics",
+    "name": "PHOTOELECTRIC EFFECT — Physics",
+    "lectures": {
+      "file": "lectures/photoelectric_effect_physics.json",
+      "count": 11
+    }
+  }
+,
+
+  {
+    "id": "atomic_structure_physics",
+    "name": "ATOMIC STRUCTURE — Physics",
+    "lectures": {
+      "file": "lectures/atomic_structure_physics.json",
+      "count": 7
+    }
+  }
+,
+
+  {
+    "id": "x_rays_physics",
+    "name": "X RAYS — Physics",
+    "lectures": {
+      "file": "lectures/x_rays_physics.json",
+      "count": 7
+    }
+  }
+,
+
+  {
+    "id": "radioactivity_physics",
+    "name": "RADIOACTIVITY — Physics",
+    "lectures": {
+      "file": "lectures/radioactivity_physics.json",
+      "count": 10
+    }
+  }
+,
+
+  {
+    "id": "nuclear_physics_physics",
+    "name": "NUCLEAR PHYSICS — Physics",
+    "lectures": {
+      "file": "lectures/nuclear_physics_physics.json",
+      "count": 7
+    }
+  }
+,
+
+  {
+    "id": "semiconductor_physics",
+    "name": "SEMICONDUCTOR — Physics",
+    "lectures": {
+      "file": "lectures/semiconductor_physics.json",
+      "count": 12
+    }
+  }
+,
+
+  {
+    "id": "logic_gates_physics",
+    "name": "LOGIC GATES — Physics",
+    "lectures": {
+      "file": "lectures/logic_gates_physics.json",
+      "count": 2
+    }
+  }
+,
+
+  {
+    "id": "motion_of_charge_particles_physics",
+    "name": "MOTION OF CHARGE PARTICLES — Physics",
+    "lectures": {
+      "file": "lectures/motion_of_charge_particles_physics.json",
+      "count": 6
+    }
+  }
+,
+
+  {
+    "id": "electric_field_and_potential_physics",
+    "name": "ELECTRIC FIELD AND POTENTIAL — Physics",
+    "lectures": {
+      "file": "lectures/electric_field_and_potential_physics.json",
+      "count": 8
+    }
+  }
+,
+
+  {
+    "id": "capacitor_physics",
+    "name": "CAPACITOR — Physics",
+    "lectures": {
+      "file": "lectures/capacitor_physics.json",
+      "count": 8
+    }
+  }
+,
+
+  {
+    "id": "electric_current_physics",
+    "name": "ELECTRIC CURRENT — Physics",
+    "lectures": {
+      "file": "lectures/electric_current_physics.json",
+      "count": 18
+    }
+  }
+,
+
+  {
+    "id": "heating_effects_of_current_physics",
+    "name": "HEATING EFFECTS OF CURRENT — Physics",
+    "lectures": {
+      "file": "lectures/heating_effects_of_current_physics.json",
+      "count": 4
+    }
+  }
+,
+
+  {
+    "id": "meter_physics",
+    "name": "METER — Physics",
+    "lectures": {
+      "file": "lectures/meter_physics.json",
+      "count": 4
+    }
+  }
+,
+
+  {
+    "id": "alternating_current_physics",
+    "name": "ALTERNATING CURRENT — Physics",
+    "lectures": {
+      "file": "lectures/alternating_current_physics.json",
+      "count": 3
+    }
+  }
+,
+
+  {
+    "id": "thermoelectricity_physics",
+    "name": "THERMOELECTRICITY — Physics",
+    "lectures": {
+      "file": "lectures/thermoelectricity_physics.json",
+      "count": 3
+    }
+  }
+,
+
+  {
+    "id": "particle_physics_physics",
+    "name": "PARTICLE PHYSICS — Physics",
+    "lectures": {
+      "file": "lectures/particle_physics_physics.json",
+      "count": 3
+    }
+  }
+,
+
+  {
+    "id": "recent_trends_in_physics_physics",
+    "name": "RECENT TRENDS IN PHYSICS — Physics",
+    "lectures": {
+      "file": "lectures/recent_trends_in_physics_physics.json",
+      "count": 5
+    }
+  }
+,
+
+  {
+    "id": "wave_mechanics_physics",
+    "name": "WAVE MECHANICS — Physics",
+    "lectures": {
+      "file": "lectures/wave_mechanics_physics.json",
+      "count": 10
+    }
+  }
 ]

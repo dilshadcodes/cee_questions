@@ -62,17 +62,15 @@
 
     chaptersData.forEach(ch => {
       const entry = getModeEntry(ch, currentMode);
-      const available = !!entry;
+      if (!entry) return;
 
-      const card = document.createElement(available ? 'a' : 'div');
-      card.className = 'chapter-card' + (available ? '' : ' disabled');
-      if (available) {
-        card.href = `chapter.html?id=${encodeURIComponent(ch.id)}&mode=${encodeURIComponent(currentMode)}`;
-      }
+      const card = document.createElement('a');
+      card.className = 'chapter-card';
+      card.href = `chapter.html?id=${encodeURIComponent(ch.id)}&mode=${encodeURIComponent(currentMode)}`;
 
-      const countLabel = available && entry.count
+      const countLabel = entry.count
         ? `${entry.count} ${MODE_LABELS[currentMode]}${entry.count === 1 ? '' : 's'}`
-        : (available ? '' : 'Coming soon');
+        : '';
 
       card.innerHTML = `
         <span class="chapter-name">${ch.name}</span>

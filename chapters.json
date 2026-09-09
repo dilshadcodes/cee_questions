@@ -10,5 +10,11 @@
     "id": "reflection_optics",
     "name": "Reflection — Optics",
     "questions": { "file": "questions/reflection_optics.json", "count": 47 }
+  },
+
+  {
+    "id": "refraction_1_optics",
+    "name": "Refraction I — Optics",
+    "questions": { "file": "questions/refraction_1_optics.json", "count": 47 }
   }
 ]

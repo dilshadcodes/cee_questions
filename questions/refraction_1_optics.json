@@ -1,0 +1,475 @@
+{
+  "chapter": "Refraction I —— Optics",
+  "questions": [
+    {
+      "number": 1,
+      "question": "The light from a luminous point source placed on the lower face of a rectangular glass slab 2.0 cm thick strikes the upper face and the totally reflected rays outline a circle of diameter 3.2 cm on the lower face. then refractive index of the glass will be: [BP 2014]",
+      "options": [
+        { "label": "a", "text": "1.5" },
+        { "label": "b", "text": "1.6" },
+        { "label": "c", "text": "1.8" },
+        { "label": "d", "text": "2" }
+      ]
+    },
+    {
+      "number": 2,
+      "question": "The refractive index is [BP 2013]",
+      "options": [
+        { "label": "a", "text": "Directly proportional to wavelength." },
+        { "label": "b", "text": "Inversely proportional to square of wavelength." },
+        { "label": "c", "text": "Inversely proportional to wavelength." },
+        { "label": "d", "text": "Directly proportional to fourth power wavelength." }
+      ]
+    },
+    {
+      "number": 3,
+      "question": "The colour of light is due to: [BP 2012]",
+      "options": [
+        { "label": "a", "text": "Velocity" },
+        { "label": "b", "text": "Frequency." },
+        { "label": "c", "text": "Wavelength" },
+        { "label": "d", "text": "All" }
+      ]
+    },
+    {
+      "number": 4,
+      "question": "The blue color of sea is due to [BP 2011]",
+      "options": [
+        { "label": "a", "text": "Refraction of light from the sea water." },
+        { "label": "b", "text": "Reflection of light from the sea water." },
+        { "label": "c", "text": "Diffraction of light form the sea water." },
+        { "label": "d", "text": "Refraction of light from the sea salts." }
+      ]
+    },
+    {
+      "number": 5,
+      "question": "Looming occurs due to: [BP 2011]",
+      "options": [
+        { "label": "a", "text": "Mirage" },
+        { "label": "b", "text": "Interference" },
+        { "label": "c", "text": "Diffraction" },
+        { "label": "d", "text": "Photoelectric effect." }
+      ]
+    },
+    {
+      "number": 6,
+      "question": "Newton's corpuscular theory couldn't explain [BP 2010]",
+      "options": [
+        { "label": "a", "text": "Refraction" },
+        { "label": "b", "text": "Reflection" },
+        { "label": "c", "text": "Diffraction" },
+        { "label": "d", "text": "Rectilinear propagation." }
+      ]
+    },
+    {
+      "number": 7,
+      "question": "Optical fibre is based on phenomenon [KU 2013/2016] [I.E 2011,012]",
+      "options": [
+        { "label": "a", "text": "Total internal reflection." },
+        { "label": "b", "text": "Interference." },
+        { "label": "c", "text": "Diffraction." },
+        { "label": "d", "text": "Polarization." }
+      ]
+    },
+    {
+      "number": 8,
+      "question": "Which of the following is not correct from TIR to occur? [KU 2010]",
+      "options": [
+        { "label": "a", "text": "The light should pass from denser to rarer medium." },
+        { "label": "b", "text": "The angle of incidence must be greater than critical angle." },
+        { "label": "c", "text": "The light should pass from rarer medium to denser medium." },
+        { "label": "d", "text": "Both (a) and (b)" }
+      ]
+    },
+    {
+      "number": 9,
+      "question": "The ray of light entering into a rectangular glass slab emerges from the slab. The incident ray and emergent ray are: [I.E 2012]",
+      "options": [
+        { "label": "a", "text": "Parallel." },
+        { "label": "b", "text": "Perpendicular." },
+        { "label": "c", "text": "Makes an acute angle." },
+        { "label": "d", "text": "Makes and obtuse angle." }
+      ]
+    },
+    {
+      "number": 10,
+      "question": "The refractive index of air with respect to water is 1.33. Then refractive index of water with respect to air is: [I.E 2012]",
+      "options": [
+        { "label": "a", "text": "0.35" },
+        { "label": "b", "text": "0.45" },
+        { "label": "c", "text": "0.65" },
+        { "label": "d", "text": "0.75" }
+      ]
+    },
+    {
+      "number": 11,
+      "question": "An air bubbles in a glass slab (\\(\\mu = 1.5\\)) is 5 cm deep when viewed through one face and 2 cm deep when viewed through the opposite face, then thickness of slab is: [IE 2010]",
+      "options": [
+        { "label": "a", "text": "7 cm" },
+        { "label": "b", "text": "7.5 cm" },
+        { "label": "c", "text": "10 cm" },
+        { "label": "d", "text": "10.5 cm" }
+      ]
+    },
+    {
+      "number": 12,
+      "question": "Which wavelength of light falls under visible wavelength? [KU 2010]",
+      "options": [
+        { "label": "a", "text": "900 \\AA" },
+        { "label": "b", "text": "640 nm" },
+        { "label": "c", "text": "640 \\AA" },
+        { "label": "d", "text": "9000 \\AA" }
+      ]
+    },
+    {
+      "number": 13,
+      "question": "The index of refraction of diamond is 2.4, velocity of light in diamond is [IOM 2016]",
+      "options": [
+        { "label": "a", "text": "\\(1.25 \\times 10^8\\text{ ms}^{-1}\\)" },
+        { "label": "b", "text": "\\(2.5 \\times 10^8\\text{ ms}^{-1}\\)" },
+        { "label": "c", "text": "\\(1.5 \\times 10^8\\text{ ms}^{-1}\\)" },
+        { "label": "d", "text": "\\(2.0 \\times 10^8\\text{ ms}^{-1}\\)" }
+      ]
+    },
+    {
+      "number": 14,
+      "question": "A diver in water at a depth 1 m sees the whole outside world in a horizontal circle of radius ..... when the refractive index is \\(\\mu\\) [IOM 04]",
+      "options": [
+        { "label": "a", "text": "\\(\\frac{1}{\\mu - 1}\\)" },
+        { "label": "b", "text": "\\(\\frac{1}{\\sqrt{\\mu^2 - 1}}\\)" },
+        { "label": "c", "text": "\\(\\sqrt{\\mu^2 - 1}\\)" },
+        { "label": "d", "text": "\\(\\frac{1}{\\mu}\\)" }
+      ]
+    },
+    {
+      "number": 15,
+      "question": "The refractive index of glass is 1.5. Then velocity of which light is minimum in the glass [MOE 2008]",
+      "options": [
+        { "label": "a", "text": "Violet" },
+        { "label": "b", "text": "Red" },
+        { "label": "c", "text": "Yellow" },
+        { "label": "d", "text": "Green" }
+      ]
+    },
+    {
+      "number": 16,
+      "question": "The refractive index of glass is 1.5 and water is 1.33. Then what is the critical angle for glass water interface [MOE 2008]",
+      "options": [
+        { "label": "a", "text": "\\(54.6^\\circ\\)" },
+        { "label": "b", "text": "\\(48^\\circ\\)" },
+        { "label": "c", "text": "\\(62.73^\\circ\\)" },
+        { "label": "d", "text": "\\(56^\\circ\\)" }
+      ]
+    },
+    {
+      "number": 17,
+      "question": "A beam of monochromatic blue light of wavelength 420 nm in air travels in water of refractive index 1.33. Its wavelength in nm in water will be [MOE 2065]",
+      "options": [
+        { "label": "a", "text": "560nm" },
+        { "label": "b", "text": "400nm" },
+        { "label": "c", "text": "315nm" },
+        { "label": "d", "text": "280nm" }
+      ]
+    },
+    {
+      "number": 18,
+      "question": "A monochromatic beam of light passes from a denser medium to a rarer medium. As a result [MOE 2062]",
+      "options": [
+        { "label": "a", "text": "Its speed decreases" },
+        { "label": "b", "text": "Its frequency increases" },
+        { "label": "c", "text": "Its speed increases" },
+        { "label": "d", "text": "Its frequency, decreases" }
+      ]
+    },
+    {
+      "number": 19,
+      "question": "A person inside water can see the sun setting at an angle of [MOE 2053]",
+      "options": [
+        { "label": "a", "text": "\\(41^\\circ\\)" },
+        { "label": "b", "text": "\\(60^\\circ\\)" },
+        { "label": "c", "text": "\\(90^\\circ\\)" },
+        { "label": "d", "text": "\\(49^\\circ\\)" }
+      ]
+    },
+    {
+      "number": 20,
+      "question": "A light ray is passed from one medium of RI (\\(n_1\\)) to another medium of RI (\\(n_2\\)) as shown in fig. [The diagram shows a light ray incident on a flat interface between medium 1 with refractive index \\(n_1\\) and medium 2 with refractive index \\(n_2\\), and the ray passes straight through the boundary into the second medium without any deviation or change of direction.] The correct relation betn \\(n_1\\) and \\(n_2\\) is [KU 08]",
+      "options": [
+        { "label": "a", "text": "\\(n_1 > n_2\\)" },
+        { "label": "b", "text": "\\(n_1 < n_2\\)" },
+        { "label": "c", "text": "\\(n_1 = n_2\\)" },
+        { "label": "d", "text": "There is no relation between \\(n_1\\) and \\(n_2\\)" }
+      ]
+    },
+    {
+      "number": 21,
+      "question": "If the refractive index of water is \\(\\frac{4}{3}\\) and that of glass slab immerged in it is \\(\\frac{5}{3}\\). What is critical angle for a ray of light tending to go from glass to water? [Bangladesh 09]",
+      "options": [
+        { "label": "a", "text": "\\(\\sin^{-1}(2/3)\\)" },
+        { "label": "b", "text": "\\(\\sin^{-1}(3/4)\\)" },
+        { "label": "c", "text": "\\(\\sin^{-1}(4/3)\\)" },
+        { "label": "d", "text": "\\(\\sin^{-1}(4/5)\\)" }
+      ]
+    },
+    {
+      "number": 22,
+      "question": "A vessel of depth 't' is half filled with water of refractive index \\(\\mu_1\\) and the other half is filled with a liquid of refractive index \\(\\mu_2\\). The apparent depth of vessel as seen from above is",
+      "options": [
+        { "label": "a", "text": "\\(\\frac{2\\mu_1\\mu_2}{t(\\mu_1 + \\mu_2)}\\)" },
+        { "label": "b", "text": "\\(\\frac{\\mu_1\\mu_2}{2t(\\mu_1 + \\mu_2)}\\)" },
+        { "label": "c", "text": "\\(\\frac{t(\\mu_1 + \\mu_2)}{2\\mu_1\\mu_2}\\)" },
+        { "label": "d", "text": "\\(\\frac{2t(\\mu_1 + \\mu_2)}{\\mu_1\\mu_2}\\)" }
+      ]
+    },
+    {
+      "number": 23,
+      "question": "A ray of light is travelling from one medium to another. The wavelength of the light at former and later medium is 4000 and 6000 respectively. Then the value of critical angle is [IE-03]",
+      "options": [
+        { "label": "a", "text": "\\(30^\\circ\\)" },
+        { "label": "b", "text": "\\(45^\\circ\\)" },
+        { "label": "c", "text": "\\(60^\\circ\\)" },
+        { "label": "d", "text": "\\(\\sin^{-1}(2/3)\\)" }
+      ]
+    },
+    {
+      "number": 24,
+      "question": "A diver inside a pond looks at an object whose natural colour is green. He sees the object as",
+      "options": [
+        { "label": "a", "text": "green" },
+        { "label": "b", "text": "blue" },
+        { "label": "c", "text": "yellow" },
+        { "label": "d", "text": "red" }
+      ]
+    },
+    {
+      "number": 25,
+      "question": "What happens when a monochromatic light travels from air to glass",
+      "options": [
+        { "label": "a", "text": "frequency and wavelength both decreases." },
+        { "label": "b", "text": "frequency increase and wavelength decreases." },
+        { "label": "c", "text": "frequency remains unchanged but wavelength decreases." },
+        { "label": "d", "text": "frequency and wavelength both remain unchanged." }
+      ]
+    },
+    {
+      "number": 26,
+      "question": "Critical angle of light passing from glass to air is minimum for [IOM/BPKIHS/MOE]",
+      "options": [
+        { "label": "a", "text": "red" },
+        { "label": "b", "text": "green" },
+        { "label": "c", "text": "yellow" },
+        { "label": "d", "text": "violet" }
+      ]
+    },
+    {
+      "number": 27,
+      "question": "A, B and C are three optical media of respective critical angles \\(C_1\\), \\(C_2\\) and \\(C_3\\). Total internal reflection can occur from A to B and also from B to C ,but not from C to A. The correct relation for the critical angles will be",
+      "options": [
+        { "label": "a", "text": "\\(C_1 > C_2 > C_3\\)" },
+        { "label": "b", "text": "\\(C_1 = C_2 = C_3\\)" },
+        { "label": "c", "text": "\\(C_3 > C_2 > C_1\\)" },
+        { "label": "d", "text": "\\(C_1 < C_2 < C_3\\)" }
+      ]
+    },
+    {
+      "number": 28,
+      "question": "A ray of light from denser medium strikes a rarer medium at an angle of incidence i. The reflected and refracted rays make an angle \\(90^\\circ\\) with each other. The angles of reflection and refraction are r and r'. The critical angle is",
+      "options": [
+        { "label": "a", "text": "\\(\\sin^{-1}(\\cot r)\\)" },
+        { "label": "b", "text": "\\(\\sin^{-1}(\\tan i)\\)" },
+        { "label": "c", "text": "\\(\\sin^{-1}(\\tan r')\\)" },
+        { "label": "d", "text": "\\(\\tan^{-1}(\\sin i)\\)" }
+      ]
+    },
+    {
+      "number": 29,
+      "question": "A plane glass slab is placed on the letter of different colours. The letters of which colour are raised by least amount?",
+      "options": [
+        { "label": "a", "text": "red" },
+        { "label": "b", "text": "yellow" },
+        { "label": "c", "text": "blue" },
+        { "label": "d", "text": "equally raised for all colours" }
+      ]
+    },
+    {
+      "number": 30,
+      "question": "A ray of light passes from vacuum into a medium of refractive index \\(\\mu\\), the angle of incidence is found to be twice the angle of refraction. The angle of incidence is:",
+      "options": [
+        { "label": "a", "text": "\\(\\cos^{-1}(\\mu/2)\\)" },
+        { "label": "b", "text": "\\(2\\cos^{-1}(\\mu/2)\\)" },
+        { "label": "c", "text": "\\(2\\sin^{-1}(\\mu)\\)" },
+        { "label": "d", "text": "\\(2\\sin^{-1}(\\mu/2)\\)" }
+      ]
+    },
+    {
+      "number": 31,
+      "question": "A ray of light travelling inside a rectangular glass block of refractive index \\(\\sqrt{2}\\) is incident on the glass - air surface at an angle of incidence of \\(45^\\circ\\). The refractive index of air is 1. Under these conditions the ray: [BPKIHS]",
+      "options": [
+        { "label": "a", "text": "will emerge into the air without any deviation" },
+        { "label": "b", "text": "will be reflected back into the glass" },
+        { "label": "c", "text": "will be absorbed" },
+        { "label": "d", "text": "will emerge into the air with an angle of refraction equal to \\(90^\\circ\\)" }
+      ]
+    },
+    {
+      "number": 32,
+      "question": "A microscope is focused on a mark. Then a glass slab of refractive index 1.5 and thickness 6cm is placed on the mark. To get the mark again in focus the microscope should be moved:",
+      "options": [
+        { "label": "a", "text": "2cm downward" },
+        { "label": "b", "text": "2 cm upward" },
+        { "label": "c", "text": "4 cm upward" },
+        { "label": "d", "text": "9 cm upward." }
+      ]
+    },
+    {
+      "number": 33,
+      "question": "Two identical buckets A and B are filled with different liquid. The refractive index of liquid in A is 1.3 and in B is 1.6. The ratio of apparent depth of the two bottom of bucket when viewed from above is:",
+      "options": [
+        { "label": "a", "text": "1.3 / 1.6" },
+        { "label": "b", "text": "1.6 / 1.3" },
+        { "label": "c", "text": "1.3 \\times 1.6" },
+        { "label": "d", "text": "none" }
+      ]
+    },
+    {
+      "number": 34,
+      "question": "A layer of water of refractive index 1.3 and thickness 4cm floats on benzene of refractive index 1.5 and thickness 6cm. Then the apparent depth of the bottom of the beaker from free surface of water is:",
+      "options": [
+        { "label": "a", "text": "6cm" },
+        { "label": "b", "text": "5cm" },
+        { "label": "c", "text": "8cm" },
+        { "label": "d", "text": "7cm" }
+      ]
+    },
+    {
+      "number": 35,
+      "question": "A half of the beaker is filled with liquid of refractive index \\(1.5\\mu\\) and the other half filled with refractive index \\(\\mu\\). The total apparent depth is equal to 50% of the total real depth, then \\(\\mu\\) is equal to",
+      "options": [
+        { "label": "a", "text": "3" },
+        { "label": "b", "text": "\\(\\frac{5}{3}\\)" },
+        { "label": "c", "text": "1" },
+        { "label": "d", "text": "1.5" }
+      ]
+    },
+    {
+      "number": 36,
+      "question": "A diver at a depth of 12m in water (\\(\\mu = \\frac{4}{3}\\)) sees the sky in a cone of semi vertex angle:",
+      "options": [
+        { "label": "a", "text": "\\(\\sin^{-1}\\frac{4}{3}\\)" },
+        { "label": "b", "text": "\\(\\tan^{-1}\\frac{4}{3}\\)" },
+        { "label": "c", "text": "\\(\\sin^{-1}\\frac{3}{4}\\)" },
+        { "label": "d", "text": "\\(90^\\circ\\)" }
+      ]
+    },
+    {
+      "number": 37,
+      "question": "A transparent cube of 12cm edge contains a small air bubble. Its apparent depth when viewed through one face of the cube is 6cm and when viewed through opposite face is 2cm. What is the actual distance of the bubble from the first face?",
+      "options": [
+        { "label": "a", "text": "6cm" },
+        { "label": "b", "text": "2cm" },
+        { "label": "c", "text": "8cm" },
+        { "label": "d", "text": "9cm" }
+      ]
+    },
+    {
+      "number": 38,
+      "question": "A pond of water is 5m deep. A flame is held 2m above the surface of water. A fish is at depth 4m from water surface. Refractive index of water is 4/3. The apparent height of the flame from the eyes of fish is:",
+      "options": [
+        { "label": "a", "text": "8/3m" },
+        { "label": "b", "text": "6m" },
+        { "label": "c", "text": "5.5m" },
+        { "label": "d", "text": "20/3m" }
+      ]
+    },
+    {
+      "number": 39,
+      "question": "Monochromatic light is refracted from air into glass of refractive index \\(\\mu\\). The ratio of the wavelength of incident and refracted waves is:",
+      "options": [
+        { "label": "a", "text": "\\(\\mu : 1\\)" },
+        { "label": "b", "text": "\\(1 : \\mu\\)" },
+        { "label": "c", "text": "\\(1 : \\mu^2\\)" },
+        { "label": "d", "text": "\\(1 : 1\\)" }
+      ]
+    },
+    {
+      "number": 40,
+      "question": "A fish rising vertically at speed 3m/s to the surface of water sees a bird diving vertically itself at speed 9m/s. If the refractive index of water is 4/3, the actual velocity of diving bird is:",
+      "options": [
+        { "label": "a", "text": "4m/s" },
+        { "label": "b", "text": "4.5m/s" },
+        { "label": "c", "text": "6m/s" },
+        { "label": "d", "text": "8.4m/s" }
+      ]
+    },
+    {
+      "number": 41,
+      "question": "A bird in air looks a fish vertically below it inside water. x is the height of the bird above the surface of water and y is the depth of fish below the surface of water. If refractive index of water with respect to air is \\(\\mu\\), the distance of fish as observed by bird is",
+      "options": [
+        { "label": "a", "text": "\\(x + y\\)" },
+        { "label": "b", "text": "\\(x + (y/\\mu)\\)" },
+        { "label": "c", "text": "\\(\\mu x + y\\)" },
+        { "label": "d", "text": "\\(\\mu(x + y)\\)" }
+      ]
+    },
+    {
+      "number": 42,
+      "question": "The refractive index of air with respect tp glass is 2/3. The refractive index of diamond with respect to air is 12/5. Then the refractive index of glass with respect to diamond will be:",
+      "options": [
+        { "label": "a", "text": "5/8" },
+        { "label": "b", "text": "8/9" },
+        { "label": "c", "text": "5/18" },
+        { "label": "d", "text": "18/5" }
+      ]
+    },
+    {
+      "number": 43,
+      "question": "The optical path of a monochromatic light is same when it goes through a transparent glass slab of thickness 4cm and 4.5cm thickness of water. The RI for glass is 1.53, then RI for water is:",
+      "options": [
+        { "label": "a", "text": "1.5" },
+        { "label": "b", "text": "1.40" },
+        { "label": "c", "text": "1.36" },
+        { "label": "d", "text": "1.32" }
+      ]
+    },
+    {
+      "number": 44,
+      "question": "What is the time taken by a ray of light to emerge from a glass slab of thickness 2cm and refractive index 1.5?",
+      "options": [
+        { "label": "a", "text": "\\(10^{-8}\\text{ s}\\)" },
+        { "label": "b", "text": "\\(10^{-9}\\text{ s}\\)" },
+        { "label": "c", "text": "\\(10^{-10}\\text{ s}\\)" },
+        { "label": "d", "text": "\\(10^{-12}\\text{ s}\\)" }
+      ]
+    },
+    {
+      "number": 45,
+      "question": "Total internal reflection occur when the light passes from [KU 2016]",
+      "options": [
+        { "label": "a", "text": "Denser to rarer" },
+        { "label": "b", "text": "Rarer to denser" },
+        { "label": "c", "text": "The \\(\\mu\\) is same" },
+        { "label": "d", "text": "None" }
+      ]
+    },
+    {
+      "number": 46,
+      "question": "Total internal reflection is possible when light rays travel: [KU 2019]",
+      "options": [
+        { "label": "a", "text": "air to water" },
+        { "label": "b", "text": "air to glass" },
+        { "label": "c", "text": "water to glass" },
+        { "label": "d", "text": "glass to water" }
+      ]
+    },
+    {
+      "number": 47,
+      "question": "When a slab having thickness 4 cm and refractive index 1.5 is placed in path of one interfering light. Then path difference will be: [CEE 2021]",
+      "options": [
+        { "label": "a", "text": "2 cm" },
+        { "label": "b", "text": "4 cm" },
+        { "label": "c", "text": "8 cm" },
+        { "label": "d", "text": "5 cm" }
+      ]
+    }
+  ]
+}

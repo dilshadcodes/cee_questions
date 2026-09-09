@@ -1,0 +1,525 @@
+{
+  "chapter": "Refraction Through Lenses",
+  "questions": [
+    {
+      "number": 1,
+      "question": "The power of convex lens is \\(P_1 = +6\\text{D}\\) and power of concave lens is \\(P_2 = -4\\text{D}\\) the focal length of combinations is [BP 2013]",
+      "options": [
+        { "label": "a", "text": "Concave lens of \\(50\\text{ m}\\)" },
+        { "label": "b", "text": "Concave lens of \\(50\\text{ cm}\\)" },
+        { "label": "c", "text": "Convex lens of \\(50\\text{ cm}\\)" },
+        { "label": "d", "text": "Convex lens of \\(50\\text{ m}\\)" }
+      ]
+    },
+    {
+      "number": 2,
+      "question": "If \\(m = 2\\), \\(R = 40\\text{ cm}\\) for a concave mirror. Then find the position of object i.e. object distance, u is [BP 2012]",
+      "options": [
+        { "label": "a", "text": "\\(20\\text{ cm}\\)" },
+        { "label": "b", "text": "\\(30\\text{ cm}\\)" },
+        { "label": "c", "text": "\\(10\\text{ cm}\\)" },
+        { "label": "d", "text": "\\(40\\text{ cm}\\)" }
+      ]
+    },
+    {
+      "number": 3,
+      "question": "A body of size \\(1\\text{ m}\\) is on the axis of convex lens at its focus. Then size (height) of it's image will be [BP 2010]",
+      "options": [
+        { "label": "a", "text": "\\(0.5\\text{ m}\\)" },
+        { "label": "b", "text": "\\(0.67\\text{ m}\\)" },
+        { "label": "c", "text": "\\(0.476\\text{ m}\\)" },
+        { "label": "d", "text": "\\(1\\text{ m}\\)" }
+      ]
+    },
+    {
+      "number": 4,
+      "question": "The power of combination of convex and concave lens is 4D. If the power of convex lens is 4D, the focal length of concave lens is [IOM 2014]",
+      "options": [
+        { "label": "a", "text": "infinity (\\(\\infty\\))" },
+        { "label": "b", "text": "\\(- 1\\text{ cm}\\)" },
+        { "label": "c", "text": "\\(- 100\\text{ cm}\\)" },
+        { "label": "d", "text": "\\(40\\text{ cm}\\)" }
+      ]
+    },
+    {
+      "number": 5,
+      "question": "P and q are the distance of object and image from the principle focus of an equiconvex lens. The Newton's formula for its focal length [MOE 2012]",
+      "options": [
+        { "label": "a", "text": "\\(pq\\)" },
+        { "label": "b", "text": "\\(p/q\\)" },
+        { "label": "c", "text": "\\(q/p\\)" },
+        { "label": "d", "text": "\\((pq)^{1/2}\\)" }
+      ]
+    },
+    {
+      "number": 6,
+      "question": "A biconvex lens of \\(8\\text{ cm}\\) and \\(12\\text{ cm}\\) radius of curvature of refractive index 1.5 then it's focal length will be: [MOE 2011]",
+      "options": [
+        { "label": "a", "text": "\\(9.6\\text{ cm}\\)" },
+        { "label": "b", "text": "\\(10\\text{ cm}\\)" },
+        { "label": "c", "text": "\\(5\\text{ cm}\\)" },
+        { "label": "d", "text": "\\(20\\text{ cm}\\)" }
+      ]
+    },
+    {
+      "number": 7,
+      "question": "If the biconvex lens is silvered on one side than it will behave as: [IOM 2013]",
+      "options": [
+        { "label": "a", "text": "Concave mirror" },
+        { "label": "b", "text": "Convex mirror" },
+        { "label": "c", "text": "Plane mirror" },
+        { "label": "d", "text": "Converging lens" }
+      ]
+    },
+    {
+      "number": 8,
+      "question": "The convex lens has focal length \\(20\\text{ cm}\\), the power is: [IOM 2012]",
+      "options": [
+        { "label": "a", "text": "\\(- 0.05\\text{ D}\\)" },
+        { "label": "b", "text": "\\(+ 0.05\\text{ D}\\)" },
+        { "label": "c", "text": "\\(- 5.0\\text{ D}\\)" },
+        { "label": "d", "text": "\\(+ 5.0\\text{ D}\\)" }
+      ]
+    },
+    {
+      "number": 9,
+      "question": "Tow thin lenses of focal length \\(f_1\\) and \\(f_2\\) are placed at a distance 'd' between them. For the power of combination to be zero the separation 'd' is: [IOM 2011]",
+      "options": [
+        { "label": "a", "text": "\\(f_1 - f_2\\)" },
+        { "label": "b", "text": "\\(f_1 + f_2\\)" },
+        { "label": "c", "text": "\\(f_1/f_2\\)" },
+        { "label": "d", "text": "\\(\\sqrt{(f_1/f_2)}\\)" }
+      ]
+    },
+    {
+      "number": 10,
+      "question": "Find out the final image formed by following lens combination when \\(f_1=10\\text{ cm}\\), \\(f_2=-5\\text{ cm}\\) and \\(f_3=30\\text{ cm}\\) [IE 2013] (The diagram shows three coaxial lenses: Lens 1 is convex with \\(f_1 = 10\\text{ cm}\\), Lens 2 is concave with \\(f_2 = -5\\text{ cm}\\) placed \\(5\\text{ cm}\\) to the right of Lens 1, and Lens 3 is convex with \\(f_3 = 30\\text{ cm}\\) placed \\(10\\text{ cm}\\) to the right of Lens 2. An object O is placed \\(30\\text{ cm}\\) to the left of Lens 1.)",
+      "options": [
+        { "label": "a", "text": "\\(20\\text{ cm}\\)" },
+        { "label": "b", "text": "infinity" },
+        { "label": "c", "text": "\\(15\\text{ cm}\\)" },
+        { "label": "d", "text": "\\(30\\text{ cm}\\)" }
+      ]
+    },
+    {
+      "number": 11,
+      "question": "If the five lenses shown below are made of the same material, which lens has the shortest positive focal length? [KU 2011] (The diagrams show: (a) a biconcave lens, (b) a plano-concave lens, (c) a plano-convex lens, and (d) a biconvex lens)",
+      "options": [
+        { "label": "a", "text": "[A biconcave lens]" },
+        { "label": "b", "text": "[A plano-concave lens]" },
+        { "label": "c", "text": "[A plano-convex lens]" },
+        { "label": "d", "text": "[A biconvex lens]" }
+      ]
+    },
+    {
+      "number": 12,
+      "question": "The ratio of powers of one convex and the other concave lens is \\(2/3\\) and their combined focal lengths is \\(30\\text{ cm}\\). Find out individual focal lengths. [IE 2013]",
+      "options": [
+        { "label": "a", "text": "-10 and 15" },
+        { "label": "b", "text": "-15 and 10" },
+        { "label": "c", "text": "40 and -20" },
+        { "label": "d", "text": "-60 and 40" }
+      ]
+    },
+    {
+      "number": 13,
+      "question": "If in a plano-convex lens radius of curvature of convex surface is \\(10\\text{cm}\\) and the focal length is \\(30\\text{cm}\\), the refractive index of the material of the lens will be [MOE 2010]",
+      "options": [
+        { "label": "a", "text": "1.5" },
+        { "label": "b", "text": "1.66" },
+        { "label": "c", "text": "1.33" },
+        { "label": "d", "text": "3" }
+      ]
+    },
+    {
+      "number": 14,
+      "question": "The distance between an object and a diverging lens is 'p' times the focal length of the lens. The lateral magnification 'm' produced by the lens will be: [IOM 063]",
+      "options": [
+        { "label": "a", "text": "p" },
+        { "label": "b", "text": "\\(p^{-1}\\)" },
+        { "label": "c", "text": "\\(1 + p\\)" },
+        { "label": "d", "text": "\\((1 + p)^{-1}\\)" }
+      ]
+    },
+    {
+      "number": 15,
+      "question": "The focal length of lens in air is \\(30\\text{ cm}\\). Find the focal length of the lens in water (given, \\(\\mu_w = 1.33\\) and \\(\\mu_g = 1.5\\)) [IOM 02]",
+      "options": [
+        { "label": "a", "text": "\\(120\\text{ cm}\\)" },
+        { "label": "b", "text": "\\(20\\text{ cm}\\)" },
+        { "label": "c", "text": "\\(90\\text{ cm}\\)" },
+        { "label": "d", "text": "\\(60\\text{ cm}\\)" }
+      ]
+    },
+    {
+      "number": 16,
+      "question": "If we put the object at the focus of convex lens the refracted rays are [MOE]",
+      "options": [
+        { "label": "a", "text": "Converging" },
+        { "label": "b", "text": "Diverging" },
+        { "label": "c", "text": "Both converging and diverging" },
+        { "label": "d", "text": "Parallel" }
+      ]
+    },
+    {
+      "number": 17,
+      "question": "An object is placed in left side of a convex lens and its image is formed on the screen, which is in right side as shown in fig. The screen is shifted away from the lens keeping object and the lens in their original position, then: [KU 08] (The figure shows an object placed to the left of a convex lens and an image formed on a vertical screen to the right of the lens.)",
+      "options": [
+        { "label": "a", "text": "size of image increases and image becomes brighter" },
+        { "label": "b", "text": "size of image decreases and image becomes dimmer." },
+        { "label": "c", "text": "The image is not formed." },
+        { "label": "d", "text": "blurred" }
+      ]
+    },
+    {
+      "number": 18,
+      "question": "A convex lens is dipped in a liquid whose refractive index is equal to the refractive index of lens. Then it's focal length will [IE-04]",
+      "options": [
+        { "label": "a", "text": "Become zero" },
+        { "label": "b", "text": "Become infinite" },
+        { "label": "c", "text": "Remain unchanged" },
+        { "label": "d", "text": "Become small but not zero" }
+      ]
+    },
+    {
+      "number": 19,
+      "question": "An object is placed \\(1\\text{cm}\\) from lens having magnification 5. Then its focal length is [IE-06]",
+      "options": [
+        { "label": "a", "text": "\\(0.8\\text{cm}\\)" },
+        { "label": "b", "text": "\\(1.2\\text{cm}\\)" },
+        { "label": "c", "text": "\\(-1.2\\text{cm}\\)" },
+        { "label": "d", "text": "\\(-0.8\\text{cm}\\)" }
+      ]
+    },
+    {
+      "number": 20,
+      "question": "A converging lens is mounted on an optical bench and a candle is placed in front of it so that an image of the flame appears on a screen 1.5f beyond the lens. The object is: [IE-07]",
+      "options": [
+        { "label": "a", "text": "between f and 2f" },
+        { "label": "b", "text": "beyond 2f" },
+        { "label": "c", "text": "closer than f" },
+        { "label": "near infinity" }
+      ]
+    },
+    {
+      "number": 21,
+      "question": "An object is placed \\(10\\text{ cm}\\) in front of a diverging lens of focal length \\(20\\text{ cm}\\). The image will be: [IE-01]",
+      "options": [
+        { "label": "a", "text": "Real inverted, large" },
+        { "label": "b", "text": "Real, erect, diminished" },
+        { "label": "c", "text": "Virtual, inverted, large" },
+        { "label": "d", "text": "Virtual, erect, diminished" }
+      ]
+    },
+    {
+      "number": 22,
+      "question": "A plane convex lens fits exactly into a plano concave lens. Their plane surfaces are parallel to each other. If the lenses are made of different materials of refractive indices \\(\\mu_1\\) and \\(\\mu_2\\) and 'R' be the radius of curvature of the curved surface of the lenses, then focal length of the combination is [BPKIHS-09]",
+      "options": [
+        { "label": "a", "text": "\\(\\frac{R}{\\mu_1 - \\mu_2}\\)" },
+        { "label": "b", "text": "\\(\\frac{2R}{\\mu_2 - \\mu_1}\\)" },
+        { "label": "c", "text": "\\(\\frac{R}{2(\\mu_1 - \\mu_2)}\\)" },
+        { "label": "d", "text": "\\(\\frac{R}{2 - (\\mu_1 + \\mu_2)}\\)" }
+      ]
+    },
+    {
+      "number": 23,
+      "question": "The plane faces of two identical plano-convex lenses, each having a focal length of \\(40\\text{cm}\\) are pressed against each other to form a usual convex lens. The distance from this lens at which an object must be placed to obtain a real, inverted image with magnification unity is:",
+      "options": [
+        { "label": "a", "text": "\\(80\\text{cm}\\)" },
+        { "label": "b", "text": "\\(40\\text{cm}\\)" },
+        { "label": "c", "text": "\\(20\\text{cm}\\)" },
+        { "label": "d", "text": "\\(160\\text{cm}\\)" }
+      ]
+    },
+    {
+      "number": 24,
+      "question": "The focal length of a convex lens is f. An object is placed at a distance x from its first focal point. The ratio of the size of the real image to that of the object is",
+      "options": [
+        { "label": "a", "text": "\\(f/x^2\\)" },
+        { "label": "b", "text": "\\(x^2/f\\)" },
+        { "label": "c", "text": "\\(f/x\\)" },
+        { "label": "d", "text": "\\(x/f\\)" }
+      ]
+    },
+    {
+      "number": 25,
+      "question": "A convex lens of focal length f produces a real image n times the size of the object. Then the distance of the object from the lens is",
+      "options": [
+        { "label": "a", "text": "\\((n-1)f\\)" },
+        { "label": "b", "text": "\\((n+1)f\\)" },
+        { "label": "c", "text": "\\(\\left(\\frac{n-1}{n}\\right)f\\)" },
+        { "label": "d", "text": "\\(\\left(\\frac{n+1}{n}\\right)f\\)" }
+      ]
+    },
+    {
+      "number": 26,
+      "question": "A convex lens of focal length f produces a virtual image n time the size of the object then the distance of the object from the lens is",
+      "options": [
+        { "label": "a", "text": "\\((n-1)f\\)" },
+        { "label": "b", "text": "\\((n+f)f\\)" },
+        { "label": "c", "text": "\\(\\left(\\frac{n-1}{n}\\right)f\\)" },
+        { "label": "d", "text": "\\(\\left(\\frac{n+1}{n}\\right)f\\)" }
+      ]
+    },
+    {
+      "number": 27,
+      "question": "A concave lens of focal length f produces an image \\(\\frac{1}{n}\\text{th}\\) of the size of the object, the distance of the object from the lens is",
+      "options": [
+        { "label": "a", "text": "\\((n-1)f\\)" },
+        { "label": "b", "text": "\\((n+1)f\\)" },
+        { "label": "c", "text": "\\(\\left(\\frac{n-1}{n}\\right)f\\)" },
+        { "label": "d", "text": "\\(\\left(\\frac{n+1}{n}\\right)f\\)" }
+      ]
+    },
+    {
+      "number": 28,
+      "question": "The plane face of a plano - convex lens is silvered. If \\(\\mu\\) be the refractive index and R the radius of curvature of the curved surface, then the system behaves like a concave mirror of radius:",
+      "options": [
+        { "label": "a", "text": "\\(\\frac{R}{\\mu}\\)" },
+        { "label": "b", "text": "\\(\\frac{R}{\\mu-1}\\)" },
+        { "label": "c", "text": "\\(R\\mu\\)" },
+        { "label": "d", "text": "\\(R(\\mu-1)\\)" }
+      ]
+    },
+    {
+      "number": 29,
+      "question": "The distance between the convex lens and a plane mirror is \\(10\\text{cm}\\). The parallel rays of light are incident on the convex lens. After reflection from the plane mirror the final image is formed at the optical centre of the lens. The focal length of the lens is",
+      "options": [
+        { "label": "a", "text": "\\(10\\text{ cm}\\)" },
+        { "label": "b", "text": "\\(20\\text{ cm}\\)" },
+        { "label": "c", "text": "\\(40\\text{ cm}\\)" },
+        { "label": "d", "text": "\\(5\\text{ cm}\\)" }
+      ]
+    },
+    {
+      "number": 30,
+      "question": "A convex lens of focal length \\(20\\text{cm}\\) is placed co-axially with a concave lens of focal length \\(5\\text{cm}\\). A parallel beam of light is incident on convex lens leaves the concave lens as parallel beam. Then the separation in between the two lenses is",
+      "options": [
+        { "label": "a", "text": "\\(5\\text{ cm}\\)" },
+        { "label": "b", "text": "\\(10\\text{ cm}\\)" },
+        { "label": "c", "text": "\\(15\\text{ cm}\\)" },
+        { "label": "d", "text": "\\(20\\text{ cm}\\)" }
+      ]
+    },
+    {
+      "number": 31,
+      "question": "A thin lens of focal length f has its aperture of diameter d. It forms an image of intensity I. Now the central part of the aperture upto diameter \\(\\left(\\frac{d}{2}\\right)\\) is blocked by an opaque paper. The focal length and image intensity would change to",
+      "options": [
+        { "label": "a", "text": "\\(\\frac{f}{2}, \\frac{I}{2}\\)" },
+        { "label": "b", "text": "\\(f, \\frac{I}{4}\\)" },
+        { "label": "c", "text": "\\(\\frac{3f}{4}, \\frac{I}{2}\\)" },
+        { "label": "d", "text": "\\(f, \\frac{3I}{4}\\)" }
+      ]
+    },
+    {
+      "number": 32,
+      "question": "An object is placed at a distance of \\(20\\text{cm}\\) from a convex lens of focal length \\(10\\text{cm}\\). The image is formed at a distance",
+      "options": [
+        { "label": "a", "text": "\\(20\\text{cm}\\) on the same side of lens" },
+        { "label": "b", "text": "\\(20\\text{cm}\\) on the other side of lens" },
+        { "label": "c", "text": "\\(\\frac{20}{3}\\text{ cm}\\) on the same side of lens" },
+        { "label": "d", "text": "\\(\\frac{20}{3}\\text{ cm}\\) on the other side of lens" }
+      ]
+    },
+    {
+      "number": 33,
+      "question": "A convex lens of focal length \\(f_1\\) is placed in contact with concave lens of focal length \\(f_2\\). The combination will act as a convergent lens if",
+      "options": [
+        { "label": "a", "text": "\\(f_1 < f_2\\)" },
+        { "label": "b", "text": "\\(f_1 > f_2\\)" },
+        { "label": "c", "text": "\\(f_1 = f_2\\)" },
+        { "label": "d", "text": "\\(f_1 > 2f_2\\)" }
+      ]
+    },
+    {
+      "number": 34,
+      "question": "If a lens of focal length \\(f\\) made of glass of refractive index \\(\\frac{5}{3}\\) is placed in a liquid of refractive index \\(\\frac{10}{7}\\) then focal length of the lens becomes",
+      "options": [
+        { "label": "a", "text": "f" },
+        { "label": "b", "text": "2f" },
+        { "label": "c", "text": "4f" },
+        { "label": "d", "text": "-4f" }
+      ]
+    },
+    {
+      "number": 35,
+      "question": "\\(f_V\\) and \\(f_R\\) are the focal lengths of a convex lens for violet and red light respectively and \\(F_v\\) and \\(F_R\\) are the focal length of concave lens for violet and red light respectively, then we must have",
+      "options": [
+        { "label": "a", "text": "\\(f_V < f_R\\text{ and } F_V > F_R\\)" },
+        { "label": "b", "text": "\\(f_V < f_R\\text{ and } F_V < F_R\\)" },
+        { "label": "c", "text": "\\(f_V > f_R\\text{ and } F_V > F_R\\)" },
+        { "label": "d", "text": "\\(f_V > f_R\\text{ and } F_V < F_R\\)" }
+      ]
+    },
+    {
+      "number": 36,
+      "question": "An equiconvex lens of glass of focal length \\(0.1\\text{m}\\) is cut along a plane perpendicular to principal axis into two equal parts. The ratio of focal lengths of new lenses formed is",
+      "options": [
+        { "label": "a", "text": "1:1" },
+        { "label": "b", "text": "1:2" },
+        { "label": "c", "text": "2:1" },
+        { "label": "d", "text": "\\(2\\frac{1}{2}\\)" }
+      ]
+    },
+    {
+      "number": 37,
+      "question": "A symmetric double convex lens is cut into two equal parts by a plane perpendicular to the principal axis. If the power of the original lens is 4D, the power of a cut lens will be",
+      "options": [
+        { "label": "a", "text": "2D" },
+        { "label": "b", "text": "3D" },
+        { "label": "c", "text": "4D" },
+        { "label": "d", "text": "8D" }
+      ]
+    },
+    {
+      "number": 38,
+      "question": "The rays of light from a luminous object are focused at a point A. If a convex lens of focal length \\(30\\text{cm}\\) is put at a distance \\(30\\text{cm}\\) from the point A such that the rays fall upon the lens before focusing at the point A. If now, the rays are focused at point B, what is the distance AB?",
+      "options": [
+        { "label": "a", "text": "\\(45\\text{cm}\\)" },
+        { "label": "b", "text": "\\(15\\text{cm}\\)" },
+        { "label": "c", "text": "\\(22.5\\text{cm}\\)" },
+        { "label": "d", "text": "\\(30\\text{cm}\\)" }
+      ]
+    },
+    {
+      "number": 39,
+      "question": "A convex lens make a real image \\(4\\text{cm}\\) long on a screen. When the lens is shifted to a new position without disturbing the object and the screen, a real image is again formed on the screen, which is \\(16\\text{cm}\\) long. The length of the object must be",
+      "options": [
+        { "label": "a", "text": "\\(64\\text{cm}\\)" },
+        { "label": "b", "text": "\\(8\\text{cm}\\)" },
+        { "label": "c", "text": "\\(10\\text{cm}\\)" },
+        { "label": "d", "text": "\\(6\\text{cm}\\)" }
+      ]
+    },
+    {
+      "number": 40,
+      "question": "An object and a screen are fixed at certain distance. When a convex lens is moved from object to the screen, real image of magnification 2 and \\(\\frac{1}{2}\\) are formed on the screen for two positions of lens separated by \\(30\\text{cm}\\). Then focal length of the lens will be",
+      "options": [
+        { "label": "a", "text": "\\(20\\text{cm}\\)" },
+        { "label": "b", "text": "\\(10\\text{cm}\\)" },
+        { "label": "c", "text": "\\(30\\text{cm}\\)" },
+        { "label": "d", "text": "\\(60\\text{cm}\\)" }
+      ]
+    },
+    {
+      "number": 41,
+      "question": "A lens forms a real image of an object on a screen placed at a distance of \\(100\\text{cm}\\) from the object. If the lens is moved by \\(20\\text{cm}\\) towards the screen, another image of the object is formed on the screen. The focal length of the lens is",
+      "options": [
+        { "label": "a", "text": "\\(12\\text{cm}\\)" },
+        { "label": "b", "text": "\\(\\frac{50}{3}\\text{ cm}\\)" },
+        { "label": "c", "text": "\\(24\\text{cm}\\)" },
+        { "label": "d", "text": "\\(46\\text{cm}.\\)" }
+      ]
+    },
+    {
+      "number": 42,
+      "question": "If \\(R_1\\) and \\(R_2\\) are radius of curvature of a convex lens. Then maximum power will be when",
+      "options": [
+        { "label": "a", "text": "\\(R_1 = 10\\text{cm}, R_2 = \\infty\\)" },
+        { "label": "b", "text": "\\(R_1 = \\infty, R_2 = 10\\text{cm}\\)" },
+        { "label": "c", "text": "\\(R_1 = R_2 = 10\\text{cm}\\)" },
+        { "label": "d", "text": "\\(R_1 = R_2 = 5\\text{cm}\\)" }
+      ]
+    },
+    {
+      "number": 43,
+      "question": "An object of height \\(1.5\\text{cm}\\) is placed on the axis of a convex lens of focal length \\(25\\text{cm}\\). A real image is formed at a distance of \\(75\\text{cm}\\) from the lens, the size of the image will be",
+      "options": [
+        { "label": "a", "text": "\\(4.5\\text{cm}\\)" },
+        { "label": "b", "text": "\\(3.0\\text{cm}\\)" },
+        { "label": "c", "text": "\\(0.75\\text{cm}\\)" },
+        { "label": "d", "text": "\\(0.5\\text{cm}\\)" }
+      ]
+    },
+    {
+      "number": 44,
+      "question": "A concavo - convex lens has radii of its faces \\(40\\text{cm}\\) and \\(20\\text{cm}\\). It is made of material of refractive index 1.5. The focal length of lens is:",
+      "options": [
+        { "label": "a", "text": "\\(40\\text{mm}\\)" },
+        { "label": "b", "text": "\\(-80\\text{cm}\\)" },
+        { "label": "c", "text": "\\(80\\text{cm}\\)" },
+        { "label": "d", "text": "\\(80/3\\text{cm}\\)" }
+      ]
+    },
+    {
+      "number": 45,
+      "question": "An aeroplane is fitted with a camera containing a lens of \\(5\\text{cm}\\) focal length. In order to photograph a strip of 5cm terrain \\(1\\text{ km}\\) long on a film strip, the aeroplane would fly at an approximate height of",
+      "options": [
+        { "label": "a", "text": "\\(1\\text{km}\\)" },
+        { "label": "b", "text": "\\(2\\text{km}\\)" },
+        { "label": "c", "text": "\\(3\\text{km}\\)" },
+        { "label": "d", "text": "\\(4\\text{km}\\)" }
+      ]
+    },
+    {
+      "number": 46,
+      "question": "An aeroplane is flying at a height of \\(1500\\text{m}\\). It has a camera having convex lens of focal length \\(45\\text{ cm}\\) with photographic plate \\(30\\text{cm} \\times 30\\text{cm}\\). How much area on the ground can be photographed at one time?",
+      "options": [
+        { "label": "a", "text": "\\(10^3\\text{m}^2\\)" },
+        { "label": "b", "text": "\\(10^4\\text{m}^2\\)" },
+        { "label": "c", "text": "\\(10^5\\text{m}^2\\)" },
+        { "label": "d", "text": "\\(10^6\\text{m}^2\\)" }
+      ]
+    },
+    {
+      "number": 47,
+      "question": "A cyclist is moving perpendicular to principal axis at a distance of \\(10\\text{m}\\) with a speed of \\(10\\text{m/s}\\) infront of a convex lens of focal length \\(10\\text{cm}\\). Find the time of exposure of the lens if the image is displaced by \\(1\\text{mm}\\) on the photographic plate.",
+      "options": [
+        { "label": "a", "text": "\\(\\frac{1}{25}\\text{ sec}\\)" },
+        { "label": "b", "text": "\\(\\frac{1}{50}\\text{ sec}\\)" },
+        { "label": "c", "text": "\\(\\frac{1}{100}\\text{ sec}\\)" },
+        { "label": "d", "text": "\\(\\frac{1}{200}\\text{ cm}\\)" }
+      ]
+    },
+    {
+      "number": 48,
+      "question": "A plane convex lens has diameter \\(6\\text{cm}\\) and thickness from the centre is \\(3\\text{mm}\\). If the speed of light in the lens is \\(2 \\times 10^8\\text{m/s}\\), then the focal length of plane convex lens is",
+      "options": [
+        { "label": "a", "text": "\\(10\\text{cm}\\)" },
+        { "label": "b", "text": "\\(15\\text{cm}\\)" },
+        { "label": "c", "text": "\\(20\\text{cm}\\)" },
+        { "label": "d", "text": "\\(30\\text{cm}\\)" }
+      ]
+    },
+    {
+      "number": 49,
+      "question": "A picture of size \\(2\\text{cm} \\times 4\\text{cm}\\) is shown on a projector. If the magnification produced be 10, the area of the image on the screen will be",
+      "options": [
+        { "label": "a", "text": "\\(80\\text{ cm}^2\\)" },
+        { "label": "b", "text": "\\(800\\text{ cm}^2\\)" },
+        { "label": "c", "text": "\\(8\\text{ cm}^2\\)" },
+        { "label": "d", "text": "\\(640\\text{ cm}^2\\)" }
+      ]
+    },
+    {
+      "number": 50,
+      "question": "If lens behaves as converging in air and diverging in water. Then refractive index is [IOM 2015]",
+      "options": [
+        { "label": "a", "text": "Less than 1.33" },
+        { "label": "b", "text": "Between 1 to 1.33" },
+        { "label": "c", "text": "More than 1.33" },
+        { "label": "d", "text": "1.33" }
+      ]
+    },
+    {
+      "number": 51,
+      "question": "A lens made of glass of refractive index 1.52 has focal length of \\(10\\text{ cm}\\) in air and \\(50\\text{ cm}\\) when immersed in liquid. The refractive index of liquid must be: [KU 2017]",
+      "options": [
+        { "label": "a", "text": "1.30" },
+        { "label": "b", "text": "1.52" },
+        { "label": "c", "text": "1.67" },
+        { "label": "d", "text": "1.38" }
+      ]
+    },
+    {
+      "number": 52,
+      "question": "The equivalent focal length of two lenses is \\(24\\text{ cm}\\). If one of the converging lens has \\(8\\text{ cm}\\) then focal length of another lens is [IOM 2019]",
+      "options": [
+        { "label": "a", "text": "Converging lens of \\(12\\text{ cm}\\)" },
+        { "label": "b", "text": "Converging lens of \\(12\\text{ cm}\\)" },
+        { "label": "c", "text": "Diverging lens of \\(12\\text{ cm}\\)" },
+        { "label": "d", "text": "Diverging lens of \\(10\\text{ cm}\\)" }
+      ]
+    }
+  ]
+}

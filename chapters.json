@@ -28,6 +28,14 @@
     }
   },
   {
+    "id": "refraction_2_optics",
+    "name": "REFRACTION II — OPTICS",
+    "questions": {
+      "file": "questions/refraction_2_optics",
+      "count": 52
+    }
+  },
+  {
     "id": "biodiversity_botany",
     "name": "BIODIVERSITY — BOTANY",
     "lectures": {

@@ -8,13 +8,34 @@
 </head>
 <body>
 
-<div class="wrap">
-  <h1 class="app-title">CEE Copilot</h1>
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <div class="brand-logo" aria-hidden="true">📚</div>
+      <div class="brand-text">
+        <h1 class="app-title">CEE Copilot</h1>
+        <p class="subtitle">Your companion for CEE preparation</p>
+      </div>
+    </div>
+  </div>
+</header>
 
+<div class="wrap">
   <div id="mode-switch" class="mode-switch" role="tablist" aria-label="Content mode">
-    <button type="button" class="mode-btn" data-mode="lectures" role="tab">Lectures</button>
-    <button type="button" class="mode-btn" data-mode="notes" role="tab">Notes</button>
-    <button type="button" class="mode-btn" data-mode="questions" role="tab">Questions</button>
+    <button type="button" class="mode-btn" data-mode="lectures" role="tab">
+      <span class="mode-icon" aria-hidden="true">🎬</span> Lectures
+    </button>
+    <button type="button" class="mode-btn" data-mode="notes" role="tab">
+      <span class="mode-icon" aria-hidden="true">📝</span> Notes
+    </button>
+    <button type="button" class="mode-btn" data-mode="questions" role="tab">
+      <span class="mode-icon" aria-hidden="true">❓</span> Questions
+    </button>
+  </div>
+
+  <div class="toolbar">
+    <input type="search" id="search-input" class="search-input" placeholder="Search chapters…" aria-label="Search chapters">
+    <span id="result-count" class="result-count"></span>
   </div>
 
   <div id="chapter-list" class="chapter-list">
@@ -26,12 +47,16 @@
   const MODE_STORAGE_KEY = 'ceeMode';
   const DEFAULT_MODE = 'questions';
   const MODE_LABELS = { lectures: 'lecture', notes: 'note', questions: 'question' };
+  const MODE_ICONS = { lectures: '🎬', notes: '📝', questions: '❓' };
 
   const modeButtons = document.querySelectorAll('.mode-btn');
+  const searchInput = document.getElementById('search-input');
+  const resultCount = document.getElementById('result-count');
   let currentMode = localStorage.getItem(MODE_STORAGE_KEY) || DEFAULT_MODE;
   if (!MODE_LABELS[currentMode]) currentMode = DEFAULT_MODE;
 
   let chaptersData = null;
+  let searchQuery = '';
 
   function setActiveButton() {
     modeButtons.forEach(btn => {
@@ -49,34 +74,103 @@
     return null;
   }
 
+  function getSubject(ch) {
+    const name = ch.name.toUpperCase();
+    if (name.includes('BOTANY')) return 'Botany';
+    if (name.includes('PHYSICS')) return 'Physics';
+    return 'Other';
+  }
+
+  function getSubjectIcon(subject) {
+    return subject === 'Botany' ? '🌿' : subject === 'Physics' ? '⚛️' : '📖';
+  }
+
+  function matchesSearch(ch) {
+    if (!searchQuery) return true;
+    const q = searchQuery.toLowerCase();
+    return ch.name.toLowerCase().includes(q) || getSubject(ch).toLowerCase().includes(q);
+  }
+
   function renderChapters() {
     const container = document.getElementById('chapter-list');
     if (!chaptersData) return;
     container.innerHTML = '';
 
-    if (!chaptersData.length) {
-      container.innerHTML = '<p class="loading">No chapters added yet.</p>';
+    const filtered = chaptersData.filter(ch => {
+      const entry = getModeEntry(ch, currentMode);
+      return entry && matchesSearch(ch);
+    });
+
+    if (!filtered.length) {
+      container.innerHTML = '<p class="empty-state">No chapters found. Try a different search or mode.</p>';
+      resultCount.textContent = '';
       return;
     }
 
-    chaptersData.forEach(ch => {
-      const entry = getModeEntry(ch, currentMode);
-      if (!entry) return;
-
-      const card = document.createElement('a');
-      card.className = 'chapter-card';
-      card.href = `chapter.html?id=${encodeURIComponent(ch.id)}&mode=${encodeURIComponent(currentMode)}`;
-
-      const countLabel = entry.count
-        ? `${entry.count} ${MODE_LABELS[currentMode]}${entry.count === 1 ? '' : 's'}`
-        : '';
-
-      card.innerHTML = `
-        <span class="chapter-name">${ch.name}</span>
-        <span class="chapter-count">${countLabel}</span>
-      `;
-      container.appendChild(card);
+    // Group by subject
+    const groups = {};
+    filtered.forEach(ch => {
+      const subject = getSubject(ch);
+      if (!groups[subject]) groups[subject] = [];
+      groups[subject].push(ch);
     });
+
+    const subjectOrder = ['Physics', 'Botany', 'Other'];
+    const sortedSubjects = Object.keys(groups).sort((a, b) => {
+      const ia = subjectOrder.indexOf(a);
+      const ib = subjectOrder.indexOf(b);
+      return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+    });
+
+    let totalCount = 0;
+    sortedSubjects.forEach(subject => {
+      const chapters = groups[subject];
+      const section = document.createElement('section');
+      section.className = 'subject-section';
+
+      const heading = document.createElement('h2');
+      heading.className = 'subject-heading';
+      heading.innerHTML = `<span class="subject-icon" aria-hidden="true">${getSubjectIcon(subject)}</span> ${subject}`;
+      section.appendChild(heading);
+
+      const list = document.createElement('div');
+      list.className = 'chapter-grid';
+
+      chapters.forEach(ch => {
+        const entry = getModeEntry(ch, currentMode);
+        if (!entry) return;
+
+        const count = entry.count || 0;
+        totalCount += count;
+
+        const card = document.createElement('a');
+        card.className = 'chapter-card';
+        card.href = `chapter.html?id=${encodeURIComponent(ch.id)}&mode=${encodeURIComponent(currentMode)}`;
+
+        const countLabel = count
+          ? `${count} ${MODE_LABELS[currentMode]}${count === 1 ? '' : 's'}`
+          : 'Coming soon';
+
+        card.innerHTML = `
+          <div class="card-top">
+            <span class="card-subject">${getSubjectIcon(subject)} ${subject}</span>
+            <span class="card-arrow" aria-hidden="true">→</span>
+          </div>
+          <div class="card-body">
+            <span class="chapter-name">${ch.name}</span>
+          </div>
+          <div class="card-footer">
+            <span class="chapter-count ${count ? '' : 'muted'}">${countLabel}</span>
+          </div>
+        `;
+        list.appendChild(card);
+      });
+
+      section.appendChild(list);
+      container.appendChild(section);
+    });
+
+    resultCount.textContent = `${filtered.length} chapter${filtered.length === 1 ? '' : 's'} · ${totalCount} ${MODE_LABELS[currentMode]}${totalCount === 1 ? '' : 's'}`;
   }
 
   modeButtons.forEach(btn => {
@@ -86,6 +180,11 @@
       setActiveButton();
       renderChapters();
     });
+  });
+
+  searchInput.addEventListener('input', () => {
+    searchQuery = searchInput.value.trim();
+    renderChapters();
   });
 
   setActiveButton();

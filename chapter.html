@@ -17,9 +17,28 @@ MathJax = {
 </head>
 <body>
 
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <div class="brand-logo" aria-hidden="true">📚</div>
+      <div class="brand-text">
+        <h1 class="app-title">CEE Copilot</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
 <div class="wrap">
   <a href="index.html" class="back-link" id="back-link">&larr; All chapters</a>
-  <h1 id="chapter-title">Loading…</h1>
+
+  <div class="chapter-hero">
+    <div class="hero-icon" id="hero-icon" aria-hidden="true">📖</div>
+    <div>
+      <h1 id="chapter-title" class="chapter-title">Loading…</h1>
+      <p id="chapter-meta" class="chapter-meta"></p>
+    </div>
+  </div>
+
   <div id="questions" class="questions">
     <p class="loading">Loading questions…</p>
   </div>
@@ -30,6 +49,7 @@ MathJax = {
   const chapterId = params.get('id');
   const DEFAULT_MODE = 'questions';
   const MODE_TITLES = { lectures: 'Lectures', notes: 'Notes', questions: 'Questions' };
+  const MODE_ICONS = { lectures: '🎬', notes: '📝', questions: '❓' };
   let mode = params.get('mode') || DEFAULT_MODE;
   if (!MODE_TITLES[mode]) mode = DEFAULT_MODE;
 
@@ -39,6 +59,17 @@ MathJax = {
     // Legacy schema fallback: a flat { file, count } was always Questions-mode data.
     if (mode === 'questions' && ch.file) return { file: ch.file, count: ch.count };
     return null;
+  }
+
+  function getSubject(name) {
+    const n = name.toUpperCase();
+    if (n.includes('BOTANY')) return 'Botany';
+    if (n.includes('PHYSICS')) return 'Physics';
+    return 'Other';
+  }
+
+  function getSubjectIcon(subject) {
+    return subject === 'Botany' ? '🌿' : subject === 'Physics' ? '⚛️' : '📖';
   }
 
   if (!chapterId) {
@@ -52,14 +83,17 @@ MathJax = {
         const chapter = chapters.find(c => c.id === chapterId);
         if (!chapter) throw new Error(`Chapter "${chapterId}" not found`);
 
-        document.getElementById('chapter-title').textContent =
-          `${chapter.name} — ${MODE_TITLES[mode]}`;
+        const subject = getSubject(chapter.name);
+        document.getElementById('chapter-title').textContent = chapter.name;
+        document.getElementById('chapter-meta').textContent =
+          `${MODE_ICONS[mode]} ${MODE_TITLES[mode]} · ${subject}`;
+        document.getElementById('hero-icon').textContent = getSubjectIcon(subject);
         document.title = `${chapter.name} — ${MODE_TITLES[mode]}`;
 
         const entry = getModeEntry(chapter, mode);
         if (!entry) {
           document.getElementById('questions').innerHTML =
-            `<p class="loading">${MODE_TITLES[mode]} for this chapter are coming soon.</p>`;
+            `<p class="empty-state">${MODE_TITLES[mode]} for this chapter are coming soon.</p>`;
           return null;
         }
 
@@ -108,8 +142,10 @@ MathJax = {
           `).join('');
 
           div.innerHTML = `
-            <span class="qnum">${q.number}.</span>
-            <span class="qtext">${q.question}</span>
+            <div class="question-header">
+              <span class="qnum">Q${q.number}</span>
+            </div>
+            <p class="qtext">${q.question}</p>
             <ul class="options">${optionsHtml}</ul>
           `;
           container.appendChild(div);
